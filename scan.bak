@@ -1,0 +1,3367 @@
+
+Starting Nmap 5.21 ( http://nmap.org ) at 2011-01-15 21:28 EST
+Nmap scan report for iota.csh.rit.edu (129.21.49.1)
+Host is up (0.00062s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+111/tcp open  rpcbind
+MAC Address: 00:50:8B:EC:76:28 (Hewlett Packard)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for jade.csh.rit.edu (129.21.49.2)
+Host is up (0.00017s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+3306/tcp open  mysql
+9091/tcp open  unknown
+MAC Address: 00:14:C2:3B:17:66 (Hewlett Packard)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.17 - 2.6.31
+Network Distance: 1 hop
+
+Nmap scan report for civx-dev1.csh.rit.edu (129.21.49.14)
+Host is up (0.00028s latency).
+Not shown: 988 filtered ports
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+80/tcp   closed http
+631/tcp  closed ipp
+6881/tcp closed bittorrent-tracker
+8080/tcp closed http-proxy
+8081/tcp closed blackice-icecap
+8082/tcp closed blackice-alerts
+8083/tcp closed unknown
+8084/tcp closed unknown
+9000/tcp closed cslistener
+9001/tcp closed tor-orport
+9999/tcp closed abyss
+MAC Address: 00:16:3E:48:54:F2 (Xensource)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.18 - 2.6.27, Linux 2.6.26
+Network Distance: 1 hop
+
+Nmap scan report for civx-boat1.csh.rit.edu (129.21.49.16)
+Host is up (0.00020s latency).
+Not shown: 997 filtered ports
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+80/tcp  closed http
+631/tcp closed ipp
+MAC Address: 00:22:19:57:7F:71 (Dell)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.18 - 2.6.27
+Network Distance: 1 hop
+
+Nmap scan report for moksha.csh.rit.edu (129.21.49.20)
+Host is up (0.00027s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+9000/tcp open  cslistener
+MAC Address: 00:16:3E:7C:4B:8F (Xensource)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28, Linux 2.6.18, Linux 2.6.24 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for csi.csh.rit.edu (129.21.49.21)
+Host is up (0.00025s latency).
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+80/tcp   open   http
+8080/tcp closed http-proxy
+9000/tcp closed cslistener
+MAC Address: 00:16:3E:3E:2B:D8 (Xensource)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28, Linux 2.6.18
+Network Distance: 1 hop
+
+Nmap scan report for rtp.csh.rit.edu (129.21.49.22)
+Host is up (0.00019s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+5801/tcp open  vnc-http-1
+5901/tcp open  vnc-1
+MAC Address: 00:11:85:B9:B4:AD (Hewlett Packard)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for rtp-ilo.csh.rit.edu (129.21.49.23)
+Host is up (0.00074s latency).
+Not shown: 996 closed ports
+PORT      STATE    SERVICE
+22/tcp    filtered ssh
+80/tcp    open     http
+443/tcp   open     https
+17988/tcp open     unknown
+MAC Address: 00:11:85:B8:1C:22 (Hewlett Packard)
+Device type: remote management
+Running: HP iLO
+OS details: HP iLO or iLO 2 remote management interface
+Network Distance: 1 hop
+
+Nmap scan report for bouncy.csh.rit.edu (129.21.49.24)
+Host is up (0.00022s latency).
+Not shown: 988 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+88/tcp   open  kerberos-sec
+311/tcp  open  asip-webadmin
+548/tcp  open  afp
+625/tcp  open  apple-xsrvr-admin
+5222/tcp open  unknown
+5269/tcp open  unknown
+5900/tcp open  vnc
+6667/tcp open  irc
+6668/tcp open  irc
+7777/tcp open  unknown
+MAC Address: 00:0A:95:E5:55:24 (Apple Computer)
+Device type: general purpose
+Running: Apple Mac OS X 10.5.X
+OS details: Apple Mac OS X 10.5 - 10.6 (Leopard - Snow Leopard) (Darwin 9.0.0b5 - 10.0.0)
+Network Distance: 1 hop
+
+Nmap scan report for abner.csh.rit.edu (129.21.49.25)
+Host is up (0.00083s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 00:08:02:80:6B:09 (Hewlett Packard)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.17 - 2.6.31
+Network Distance: 1 hop
+
+Nmap scan report for bluesky.csh.rit.edu (129.21.49.26)
+Host is up (0.00013s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5800/tcp open  vnc-http
+5900/tcp open  vnc
+MAC Address: 00:19:21:34:15:3E (Elitegroup Computer System Co.)
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=43911%PV=N%DS=1%DC=D%G=Y%M=001921%TM=4D
+OS:32584B%P=i686-pc-linux-gnu)SEQ(SP=C6%GCD=1%ISR=C6%TI=Z%II=I%TS=A)OPS(O1=
+OS:M5B4ST11NW6%O2=M5B4ST11NW6%O3=M5B4NNT11NW6%O4=M5B4ST11NW6%O5=M5B4ST11NW6
+OS:%O6=M5B4ST11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y
+OS:%DF=Y%T=40%W=16D0%O=M5B4NNSNW6%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD
+OS:=0%Q=)T2(R=N)T3(R=Y%DF=Y%T=40%W=16A0%S=O%A=S+%F=AS%O=M5B4ST11NW6%RD=0%Q=
+OS:)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=
+OS:S+%F=AR%O=%RD=0%Q=)T6(R=N)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RI
+OS:D=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for luna.csh.rit.edu (129.21.49.27)
+Host is up (0.00060s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+111/tcp open  rpcbind
+MAC Address: 00:50:8B:E8:7F:3D (Hewlett Packard)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for vpn.csh.rit.edu (129.21.49.28)
+Host is up (0.00020s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+443/tcp open  https
+MAC Address: 00:0C:29:78:16:1B (VMware)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for ragnarok.csh.rit.edu (129.21.49.29)
+Host is up (0.00081s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 00:50:8B:E8:7E:EB (Hewlett Packard)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for esx.csh.rit.edu (129.21.49.30)
+Host is up (0.00013s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+902/tcp  open  iss-realsecure
+5989/tcp open  unknown
+8000/tcp open  http-alt
+8100/tcp open  unknown
+MAC Address: 00:E0:81:54:C1:DE (Tyan Computer)
+Device type: storage-misc|specialized
+Running: FreeBSD 6.X, VMware ESX Server 3.X|4.X
+OS details: FreeNAS 0.686 (FreeBSD 6.2-RELEASE) or VMware ESXi Server 3.0 - 4.0
+Network Distance: 1 hop
+
+Nmap scan report for media.csh.rit.edu (129.21.49.32)
+Host is up (0.00030s latency).
+Not shown: 993 filtered ports
+PORT      STATE SERVICE
+21/tcp    open  ftp
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-term-serv
+49155/tcp open  unknown
+MAC Address: 00:0C:29:9F:B6:05 (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Microsoft Windows Vista|2008|7
+OS details: Microsoft Windows Vista SP0 or SP1, Server 2008 SP1, or Windows 7
+Network Distance: 1 hop
+
+Nmap scan report for lolrus.csh.rit.edu (129.21.49.33)
+Host is up (0.00019s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 00:50:8D:9F:48:FD (Abit Computer)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for linux.csh.rit.edu (129.21.49.37)
+Host is up (0.00014s latency).
+Not shown: 991 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+1723/tcp open  pptp
+2222/tcp open  unknown
+2500/tcp open  rtsserv
+3128/tcp open  squid-http
+MAC Address: 00:C0:9F:25:C4:C4 (Quanta Computer)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.17 - 2.6.31
+Network Distance: 1 hop
+
+Nmap scan report for zook.csh.rit.edu (129.21.49.38)
+Host is up (0.00018s latency).
+Not shown: 998 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 00:0D:60:55:1C:AD (IBM)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|specialized|firewall|WAP|router|storage-misc
+Running (JUST GUESSING) : Linux 2.6.X (95%), Crestron 2-Series (90%), Check Point Linux 2.4.X (87%), D-Link embedded (87%), Linksys embedded (87%), Peplink embedded (87%), IBM embedded (87%), Linksys Linux 2.4.X (86%)
+Aggressive OS guesses: Linux 2.6.24 - 2.6.31 (95%), Linux 2.6.9 - 2.6.18 (94%), Linux 2.6.9 - 2.6.27 (94%), Linux 2.6.22 (Fedora Core 6) (93%), Crestron XPanel control system (90%), Linux 2.6.17 (Mandriva) (89%), Linux 2.6.17 - 2.6.31 (89%), Linux 2.6.18 (CentOS 5) (89%), Linux 2.6.18 (Centos 5.3) (89%), Linux 2.6.19 - 2.6.31 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for burbclave.csh.rit.edu (129.21.49.39)
+Host is up (0.00018s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5222/tcp open  unknown
+5269/tcp open  unknown
+MAC Address: 00:50:8B:E8:89:7A (Hewlett Packard)
+Device type: general purpose
+Running: FreeBSD 7.X
+OS details: FreeBSD 7.0-BETA4 - 7.0
+Network Distance: 1 hop
+
+Nmap scan report for halogen.csh.rit.edu (129.21.49.40)
+Host is up (0.00011s latency).
+Not shown: 990 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+25/tcp   open  smtp
+80/tcp   open  http
+111/tcp  open  rpcbind
+113/tcp  open  auth
+143/tcp  open  imap
+443/tcp  open  https
+993/tcp  open  imaps
+9418/tcp open  git
+MAC Address: 00:1F:C6:75:58:2F (Asustek Computer)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.49.41
+Host is up (0.00013s latency).
+Not shown: 988 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+110/tcp  open  pop3
+143/tcp  open  imap
+443/tcp  open  https
+993/tcp  open  imaps
+995/tcp  open  pop3s
+2525/tcp open  unknown
+5432/tcp open  postgresql
+MAC Address: 00:04:5A:72:00:CD (The Linksys Group)
+Device type: general purpose
+Running: FreeBSD 7.X|8.X
+OS details: FreeBSD 7.0-RELEASE-p1 - 8.0-CURRENT
+Network Distance: 1 hop
+
+Nmap scan report for sunkist.csh.rit.edu (129.21.49.42)
+Host is up (0.00016s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 00:50:8B:E8:2A:CF (Hewlett Packard)
+Device type: general purpose
+Running: FreeBSD 7.X
+OS details: FreeBSD 7.0-BETA4 - 7.0
+Network Distance: 1 hop
+
+Nmap scan report for starfire.csh.rit.edu (129.21.49.43)
+Host is up (0.00015s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+3690/tcp open  svn
+3784/tcp open  unknown
+MAC Address: 00:24:1D:8B:15:AB (Giga-byte Technology Co.)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.9 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for robertp.csh.rit.edu (129.21.49.44)
+Host is up (0.00014s latency).
+Not shown: 991 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+80/tcp   open  http
+110/tcp  open  pop3
+143/tcp  open  imap
+993/tcp  open  imaps
+995/tcp  open  pop3s
+8080/tcp open  http-proxy
+9418/tcp open  git
+MAC Address: 00:24:1D:21:CC:5E (Giga-byte Technology Co.)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.19 - 2.6.31
+Network Distance: 1 hop
+
+Nmap scan report for syn.csh.rit.edu (129.21.49.45)
+Host is up (0.00020s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+25/tcp  open  smtp
+80/tcp  open  http
+993/tcp open  imaps
+MAC Address: 00:E0:81:5B:6B:4E (Tyan Computer)
+Device type: general purpose
+Running: FreeBSD 7.X|8.X
+OS details: FreeBSD 7.0-RELEASE-p1 - 8.0-CURRENT
+Network Distance: 1 hop
+
+Nmap scan report for ospf.csh.rit.edu (129.21.49.46)
+Host is up (0.00020s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 08:00:20:C1:EC:48 (SUN Microsystems)
+Device type: general purpose
+Running: Sun Solaris 9|10, Sun OpenSolaris
+OS details: Sun Solaris 9 or 10, or OpenSolaris 2009.06
+Network Distance: 1 hop
+
+Nmap scan report for bessy.csh.rit.edu (129.21.49.47)
+Host is up (0.00024s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 00:50:8B:E8:F0:7C (Hewlett Packard)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: FreeBSD 7.X
+OS details: FreeBSD 7.0-RELEASE
+Network Distance: 1 hop
+
+Nmap scan report for ci.csh.rit.edu (129.21.49.48)
+Host is up (0.00022s latency).
+Not shown: 997 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+8080/tcp open  http-proxy
+MAC Address: 00:16:3E:50:1F:26 (Xensource)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28, Linux 2.6.24 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for jolt.csh.rit.edu (129.21.49.49)
+Host is up (0.00019s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+MAC Address: 00:30:6E:1E:DE:BD (Hewlett Packard)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for caligula.csh.rit.edu (129.21.49.57)
+Host is up (0.00013s latency).
+Not shown: 995 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+25/tcp  open  smtp
+80/tcp  open  http
+113/tcp open  auth
+443/tcp open  https
+MAC Address: 00:1D:60:EA:74:97 (Asustek Computer)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.19 - 2.6.31
+Network Distance: 1 hop
+
+Nmap scan report for frink.csh.rit.edu (129.21.49.84)
+Host is up (0.00064s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+3000/tcp open  ppp
+MAC Address: 00:16:3E:00:00:21 (Xensource)
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=41276%PV=N%DS=1%DC=D%G=Y%M=00163E%TM=4D
+OS:32584B%P=i686-pc-linux-gnu)SEQ(SP=CA%GCD=1%ISR=CE%TI=Z%CI=Z%II=I%TS=7)OP
+OS:S(O1=M5B4ST11NW3%O2=M5B4ST11NW3%O3=M5B4NNT11NW3%O4=M5B4ST11NW3%O5=M5B4ST
+OS:11NW3%O6=M5B4ST11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0)EC
+OS:N(R=Y%DF=Y%T=40%W=16D0%O=M5B4NNSNW3%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=
+OS:AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=Y%T=40%W=16A0%S=O%A=S+%F=AS%O=M5B4ST11NW3%RD
+OS:=0%Q=)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S
+OS:=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%
+OS:RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for 3jane.csh.rit.edu (129.21.49.89)
+Host is up (0.00018s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+5269/tcp open  unknown
+MAC Address: 00:50:8B:E8:89:7A (Hewlett Packard)
+Device type: general purpose
+Running: FreeBSD 7.X
+OS details: FreeBSD 7.0-BETA4 - 7.0
+Network Distance: 1 hop
+
+Nmap scan report for doorstop.csh.rit.edu (129.21.49.91)
+Host is up (0.00062s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+901/tcp open  samba-swat
+MAC Address: 00:16:3E:00:00:24 (Xensource)
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=36785%PV=N%DS=1%DC=D%G=Y%M=00163E%TM=4D
+OS:32584B%P=i686-pc-linux-gnu)SEQ(SP=CC%GCD=1%ISR=D3%TI=Z%CI=Z%II=I%TS=7)OP
+OS:S(O1=M5B4ST11NW3%O2=M5B4ST11NW3%O3=M5B4NNT11NW3%O4=M5B4ST11NW3%O5=M5B4ST
+OS:11NW3%O6=M5B4ST11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0)EC
+OS:N(R=Y%DF=Y%T=40%W=16D0%O=M5B4NNSNW3%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=
+OS:AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=Y%T=40%W=16A0%S=O%A=S+%F=AS%O=M5B4ST11NW3%RD
+OS:=0%Q=)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S
+OS:=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%
+OS:RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for uvb.csh.rit.edu (129.21.49.94)
+Host is up (0.00060s latency).
+Not shown: 995 closed ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+80/tcp    open  http
+389/tcp   open  ldap
+443/tcp   open  https
+13783/tcp open  netbackup
+MAC Address: 00:16:3E:44:4E:64 (Xensource)
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=34421%PV=N%DS=1%DC=D%G=Y%M=00163E%TM=4D
+OS:32584B%P=i686-pc-linux-gnu)SEQ(SP=CC%GCD=1%ISR=CE%TI=Z%CI=Z%II=I%TS=7)OP
+OS:S(O1=M5B4ST11NW3%O2=M5B4ST11NW3%O3=M5B4NNT11NW3%O4=M5B4ST11NW3%O5=M5B4ST
+OS:11NW3%O6=M5B4ST11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0)EC
+OS:N(R=Y%DF=Y%T=40%W=16D0%O=M5B4NNSNW3%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=
+OS:AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=Y%T=40%W=16A0%S=O%A=S+%F=AS%O=M5B4ST11NW3%RD
+OS:=0%Q=)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S
+OS:=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%
+OS:RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for martyfunkhouser.csh.rit.edu (129.21.49.95)
+Host is up (0.00065s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 00:16:3E:45:61:EE (Xensource)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.19 - 2.6.31
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.49.96
+Host is up (0.00063s latency).
+Not shown: 993 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+79/tcp   open  finger
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+4242/tcp open  unknown
+4343/tcp open  unicall
+MAC Address: 00:16:3E:00:00:01 (Xensource)
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=31239%PV=N%DS=1%DC=D%G=Y%M=00163E%TM=4D
+OS:32584B%P=i686-pc-linux-gnu)SEQ(SP=CB%GCD=1%ISR=CE%TI=Z%CI=Z%II=I%TS=7)OP
+OS:S(O1=M5B4ST11NW3%O2=M5B4ST11NW3%O3=M5B4NNT11NW3%O4=M5B4ST11NW3%O5=M5B4ST
+OS:11NW3%O6=M5B4ST11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0)EC
+OS:N(R=Y%DF=Y%T=40%W=16D0%O=M5B4NNSNW3%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=
+OS:AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=Y%T=40%W=16A0%S=O%A=S+%F=AS%O=M5B4ST11NW3%RD
+OS:=0%Q=)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S
+OS:=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%
+OS:RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.49.101
+Host is up (0.00066s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+MAC Address: 00:16:3E:00:00:20 (Xensource)
+Device type: webcam
+Running: AXIS Linux 2.6.X
+OS details: AXIS 207 Network Camera (Linux 2.6.16) or 241Q Video Server
+Network Distance: 1 hop
+
+Nmap scan report for littledrink.csh.rit.edu (129.21.49.105)
+Host is up (0.00063s latency).
+Not shown: 993 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+79/tcp   open  finger
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+4242/tcp open  unknown
+4343/tcp open  unicall
+MAC Address: 00:16:3E:00:00:01 (Xensource)
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=39990%PV=N%DS=1%DC=D%G=Y%M=00163E%TM=4D
+OS:32584B%P=i686-pc-linux-gnu)SEQ(SP=C4%GCD=1%ISR=C2%TI=Z%CI=Z%II=I%TS=7)OP
+OS:S(O1=M5B4ST11NW3%O2=M5B4ST11NW3%O3=M5B4NNT11NW3%O4=M5B4ST11NW3%O5=M5B4ST
+OS:11NW3%O6=M5B4ST11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0)EC
+OS:N(R=Y%DF=Y%T=40%W=16D0%O=M5B4NNSNW3%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=
+OS:AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=Y%T=40%W=16A0%S=O%A=S+%F=AS%O=M5B4ST11NW3%RD
+OS:=0%Q=)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S
+OS:=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%
+OS:RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for bigdrink.csh.rit.edu (129.21.49.106)
+Host is up (0.00064s latency).
+Not shown: 993 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+79/tcp   open  finger
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+4242/tcp open  unknown
+4343/tcp open  unicall
+MAC Address: 00:16:3E:00:00:01 (Xensource)
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=33556%PV=N%DS=1%DC=D%G=Y%M=00163E%TM=4D
+OS:32584B%P=i686-pc-linux-gnu)SEQ(SP=C3%GCD=1%ISR=CE%TI=Z%CI=Z%II=I%TS=7)OP
+OS:S(O1=M5B4ST11NW3%O2=M5B4ST11NW3%O3=M5B4NNT11NW3%O4=M5B4ST11NW3%O5=M5B4ST
+OS:11NW3%O6=M5B4ST11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0)EC
+OS:N(R=Y%DF=Y%T=40%W=16D0%O=M5B4NNSNW3%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=
+OS:AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=Y%T=40%W=16A0%S=O%A=S+%F=AS%O=M5B4ST11NW3%RD
+OS:=0%Q=)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S
+OS:=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%
+OS:RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for snack.csh.rit.edu (129.21.49.107)
+Host is up (0.00024s latency).
+Not shown: 993 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+79/tcp   open  finger
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+4242/tcp open  unknown
+4343/tcp open  unicall
+MAC Address: 00:16:3E:00:00:01 (Xensource)
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=32705%PV=N%DS=1%DC=D%G=Y%M=00163E%TM=4D
+OS:32584B%P=i686-pc-linux-gnu)SEQ(SP=CD%GCD=1%ISR=CE%TI=Z%CI=Z%II=I%TS=7)OP
+OS:S(O1=M5B4ST11NW3%O2=M5B4ST11NW3%O3=M5B4NNT11NW3%O4=M5B4ST11NW3%O5=M5B4ST
+OS:11NW3%O6=M5B4ST11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0)EC
+OS:N(R=Y%DF=Y%T=40%W=16D0%O=M5B4NNSNW3%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=
+OS:AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=Y%T=40%W=16A0%S=O%A=S+%F=AS%O=M5B4ST11NW3%RD
+OS:=0%Q=)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S
+OS:=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%
+OS:RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for infosysssh.csh.rit.edu (129.21.49.109)
+Host is up (0.00030s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+MAC Address: 00:16:3E:00:00:17 (Xensource)
+Device type: webcam
+Running: AXIS Linux 2.6.X
+OS details: AXIS 207 Network Camera (Linux 2.6.16) or 241Q Video Server
+Network Distance: 1 hop
+
+Nmap scan report for ns1.csh.rit.edu (129.21.49.129)
+Host is up (0.00017s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+111/tcp  open  rpcbind
+199/tcp  open  smux
+9102/tcp open  jetdirect
+MAC Address: 00:50:8B:EC:77:C0 (Hewlett Packard)
+Device type: general purpose
+Running: FreeBSD 6.X
+OS details: FreeBSD 6.1-RELEASE - 6.2
+Network Distance: 1 hop
+
+Nmap scan report for filer.csh.rit.edu (129.21.49.130)
+Host is up (0.00016s latency).
+Not shown: 989 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+111/tcp  open  rpcbind
+389/tcp  open  ldap
+514/tcp  open  shell
+636/tcp  open  ldapssl
+2049/tcp open  nfs
+4003/tcp open  unknown
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+9103/tcp open  jetdirect
+MAC Address: 00:30:48:30:E0:EE (Supermicro Computer)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.17 - 2.6.31
+Network Distance: 1 hop
+
+Nmap scan report for db.csh.rit.edu (129.21.49.131)
+Host is up (0.00012s latency).
+Not shown: 992 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+3306/tcp open  mysql
+5432/tcp open  postgresql
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+MAC Address: 00:09:6B:A3:20:6E (IBM)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for console2.csh.rit.edu (129.21.49.132)
+Host is up (0.0039s latency).
+Not shown: 991 closed ports
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+23/tcp    open     telnet
+80/tcp    open     http
+443/tcp   open     https
+513/tcp   open     login
+514/tcp   open     shell
+515/tcp   open     printer
+1027/tcp  open     IIS
+50000/tcp filtered iiimsf
+MAC Address: 00:40:9D:22:CB:F3 (Digiboard)
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=39396%PV=N%DS=1%DC=D%G=Y%M=00409D%TM=4D
+OS:32584B%P=i686-pc-linux-gnu)SEQ(CI=RD%II=RI%TS=U)SEQ(CI=RD%II=RI)OPS(O1=M
+OS:5B4%O2=M578%O3=M280%O4=M218%O5=M218%O6=M109)OPS(O1=%O2=%O3=%O4=%O5=M218%
+OS:O6=)OPS(O1=%O2=%O3=M280%O4=%O5=M218%O6=)OPS(O1=M5B4%O2=M578%O3=%O4=%O5=%
+OS:O6=)OPS(O1=%O2=%O3=%O4=%O5=%O6=)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2
+OS:000%W6=2000)WIN(W1=0%W2=0%W3=2000%W4=0%W5=2000%W6=0)WIN(W1=0%W2=0%W3=0%W
+OS:4=0%W5=0%W6=0)ECN(R=Y%DF=N%T=40%W=2000%O=M5B4%CC=N%Q=)ECN(R=Y%DF=N%T=40%
+OS:W=2000%O=%CC=N%Q=)T1(R=Y%DF=N%T=40%S=O%A=S+%F=AS%RD=0%Q=)T1(R=Y%DF=N%T=4
+OS:0%S=O%A=O%F=AR%RD=0%Q=)T1(R=Y%DF=N%T=3A%S=Z%A=S+%F=AR%RD=0%Q=)T1(R=Y%DF=
+OS:N%T=2A%S=Z%A=S+%F=AR%RD=0%Q=)T2(R=N)T3(R=Y%DF=N%T=40%W=2000%S=O%A=S+%F=A
+OS:S%O=M109%RD=0%Q=)T3(R=Y%DF=N%T=40%W=2000%S=O%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%
+OS:DF=Y%T=39%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T4(R=Y%DF=Y%T=38%W=0%S=A%A=O%F=R%O=
+OS:%RD=0%Q=)T4(R=Y%DF=Y%T=26%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T4(R=Y%DF=Y%T=2F%W=
+OS:0%S=A%A=O%F=R%O=%RD=0%Q=)T4(R=Y%DF=Y%T=33%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(
+OS:R=Y%DF=N%T=37%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T5(R=Y%DF=N%T=2A%W=0%S=Z%A=S+
+OS:%F=AR%O=%RD=0%Q=)T5(R=Y%DF=N%T=3B%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T5(R=Y%DF
+OS:=N%T=29%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T5(R=Y%DF=N%T=28%W=0%S=Z%A=S+%F=AR%
+OS:O=%RD=0%Q=)T6(R=Y%DF=Y%T=35%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T6(R=Y%DF=Y%T=38%
+OS:W=0%S=A%A=O%F=R%O=%RD=0%Q=)T6(R=Y%DF=Y%T=34%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T
+OS:6(R=Y%DF=Y%T=27%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T6(R=Y%DF=Y%T=26%W=0%S=A%A=O%
+OS:F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T=2B%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T7(R=Y%DF=N
+OS:%T=2A%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T7(R=Y%DF=N%T=37%W=0%S=Z%A=S+%F=AR%O=
+OS:%RD=0%Q=)T7(R=Y%DF=N%T=28%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T7(R=Y%DF=N%T=36%
+OS:W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=Y%T=40%IPL=104%UN=0%RIPL=G%RID=G%
+OS:RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for ldap.csh.rit.edu (129.21.49.134)
+Host is up (0.00014s latency).
+Not shown: 991 closed ports
+PORT     STATE SERVICE
+7/tcp    open  echo
+22/tcp   open  ssh
+25/tcp   open  smtp
+53/tcp   open  domain
+111/tcp  open  rpcbind
+389/tcp  open  ldap
+636/tcp  open  ldapssl
+888/tcp  open  accessbuilder
+9102/tcp open  jetdirect
+MAC Address: 00:B0:D0:49:9D:75 (Dell Computer)
+Device type: general purpose
+Running: FreeBSD 6.X
+OS details: FreeBSD 6.1-RELEASE - 6.2
+Network Distance: 1 hop
+
+Nmap scan report for kerberos.csh.rit.edu (129.21.49.135)
+Host is up (0.00012s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+88/tcp   open  kerberos-sec
+199/tcp  open  smux
+749/tcp  open  kerberos-adm
+9102/tcp open  jetdirect
+MAC Address: 00:50:8B:EC:98:AA (Hewlett Packard)
+Device type: general purpose
+Running: FreeBSD 7.X|8.X
+OS details: FreeBSD 7.0-RELEASE-p1 - 8.0-CURRENT
+Network Distance: 1 hop
+
+Nmap scan report for nis2.csh.rit.edu (129.21.49.136)
+Host is up (0.00011s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+MAC Address: 00:0F:1F:65:76:F5 (WW Pcba Test)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for wopr.csh.rit.edu (129.21.49.137)
+Host is up (0.00013s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+111/tcp  open  rpcbind
+199/tcp  open  smux
+9102/tcp open  jetdirect
+MAC Address: 00:50:8B:EC:77:C0 (Hewlett Packard)
+Device type: general purpose
+Running: FreeBSD 6.X
+OS details: FreeBSD 6.1-RELEASE - 6.2
+Network Distance: 1 hop
+
+Nmap scan report for tonka.csh.rit.edu (129.21.49.138)
+Host is up (0.00025s latency).
+Not shown: 980 filtered ports
+PORT      STATE SERVICE
+53/tcp    open  domain
+88/tcp    open  kerberos-sec
+111/tcp   open  rpcbind
+135/tcp   open  msrpc
+389/tcp   open  ldap
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+593/tcp   open  http-rpc-epmap
+636/tcp   open  ldapssl
+1039/tcp  open  unknown
+1047/tcp  open  unknown
+1048/tcp  open  unknown
+2049/tcp  open  nfs
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+3389/tcp  open  ms-term-serv
+49154/tcp open  unknown
+49156/tcp open  unknown
+49157/tcp open  unknown
+49158/tcp open  unknown
+MAC Address: 00:09:3D:12:33:A3 (Newisys)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Microsoft Windows Vista|2008|7
+OS details: Microsoft Windows Vista SP0 or SP1, Server 2008 SP1, or Windows 7
+Network Distance: 1 hop
+
+Nmap scan report for totoro.csh.rit.edu (129.21.49.139)
+Host is up (0.00011s latency).
+Not shown: 993 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+5432/tcp open  postgresql
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+MAC Address: 00:09:6B:A3:20:6E (IBM)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for brownstoat.csh.rit.edu (129.21.49.141)
+Host is up (0.00011s latency).
+Not shown: 989 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+80/tcp   open  http
+111/tcp  open  rpcbind
+119/tcp  open  nntp
+443/tcp  open  https
+465/tcp  open  smtps
+563/tcp  open  snews
+587/tcp  open  submission
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+MAC Address: 00:09:6B:49:9D:5A (IBM)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for ripley.csh.rit.edu (129.21.49.142)
+Host is up (0.00010s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+MAC Address: 00:0F:1F:65:76:F5 (WW Pcba Test)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for web.csh.rit.edu (129.21.49.143)
+Host is up (0.00011s latency).
+Not shown: 993 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+5432/tcp open  postgresql
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+MAC Address: 00:09:6B:A3:20:6E (IBM)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for venom.csh.rit.edu (129.21.49.144)
+Host is up (0.00021s latency).
+Not shown: 990 filtered ports
+PORT      STATE SERVICE
+80/tcp    open  http
+111/tcp   open  rpcbind
+135/tcp   open  msrpc
+445/tcp   open  microsoft-ds
+1039/tcp  open  unknown
+1047/tcp  open  unknown
+1048/tcp  open  unknown
+2049/tcp  open  nfs
+3389/tcp  open  ms-term-serv
+49154/tcp open  unknown
+MAC Address: 00:09:6B:49:8A:A6 (IBM)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Microsoft Windows 2008|Vista|7
+OS details: Microsoft Windows Server 2008 Beta 3, Microsoft Windows Vista SP0 or SP1, Server 2008 SP1, or Windows 7
+Network Distance: 1 hop
+
+Nmap scan report for console.csh.rit.edu (129.21.49.146)
+Host is up (0.00100s latency).
+Not shown: 990 closed ports
+PORT     STATE SERVICE
+23/tcp   open  telnet
+6001/tcp open  X11:1
+6002/tcp open  X11:2
+6003/tcp open  X11:3
+6004/tcp open  X11:4
+6005/tcp open  X11:5
+6006/tcp open  X11:6
+6007/tcp open  X11:7
+6009/tcp open  X11:9
+6025/tcp open  unknown
+MAC Address: 00:C0:05:01:4F:70 (Livingston Enterprises)
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=23%CT=1%CU=31073%PV=N%DS=1%DC=D%G=Y%M=00C005%TM=4D
+OS:32584B%P=i686-pc-linux-gnu)SEQ(CI=I%II=I%TS=U)OPS(O1=%O2=%O3=%O4=%O5=%O6
+OS:=)WIN(W1=800%W2=0%W3=0%W4=0%W5=0%W6=0)WIN(W1=0%W2=0%W3=0%W4=800%W5=0%W6=
+OS:0)ECN(R=Y%DF=N%T=133%W=0%O=%CC=N%Q=)T1(R=Y%DF=N%T=133%S=O%A=S+%F=AS%RD=0
+OS:%Q=)T1(R=Y%DF=N%T=133%S=Z%A=S+%F=AR%RD=0%Q=)T2(R=Y%DF=N%T=133%W=0%S=Z%A=
+OS:S+%F=AR%O=%RD=0%Q=)T3(R=Y%DF=N%T=133%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T4(R=Y
+OS:%DF=N%T=133%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)T5(R=Y%DF=N%T=133%W=0%S=Z%A=S+%
+OS:F=AR%O=%RD=0%Q=)T6(R=Y%DF=N%T=133%W=0%S=A%A=S+%F=AR%O=%RD=0%Q=)T7(R=Y%DF
+OS:=N%T=133%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=133%IPL=38%UN=0%RIPL
+OS:=G%RID=G%RIPCK=I%RUCK=0%RUD=G)IE(R=Y%DFI=N%T=133%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for news.csh.rit.edu (129.21.49.147)
+Host is up (0.00012s latency).
+Not shown: 989 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+80/tcp   open  http
+111/tcp  open  rpcbind
+119/tcp  open  nntp
+443/tcp  open  https
+465/tcp  open  smtps
+563/tcp  open  snews
+587/tcp  open  submission
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+MAC Address: 00:09:6B:49:9D:5A (IBM)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for civx-console.csh.rit.edu (129.21.49.148)
+Host is up (0.00022s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+5900/tcp open  vnc
+5901/tcp open  vnc-1
+MAC Address: 00:24:E8:4D:5D:C0 (Dell)
+Device type: general purpose
+Running: Linux 2.4.X
+OS details: Linux 2.4.18 - 2.4.35 (likely embedded)
+Network Distance: 1 hop
+
+Nmap scan report for hactar.csh.rit.edu (129.21.49.149)
+Host is up (0.00014s latency).
+Not shown: 989 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+111/tcp  open  rpcbind
+389/tcp  open  ldap
+514/tcp  open  shell
+636/tcp  open  ldapssl
+2049/tcp open  nfs
+4003/tcp open  unknown
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+9103/tcp open  jetdirect
+MAC Address: 00:30:48:30:E0:EE (Supermicro Computer)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.17 - 2.6.31
+Network Distance: 1 hop
+
+Nmap scan report for tonka-sp.csh.rit.edu (129.21.49.150)
+Host is up (0.00076s latency).
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE
+22/tcp   open   ssh
+80/tcp   open   http
+443/tcp  open   https
+4444/tcp closed krb524
+MAC Address: 00:09:3D:12:33:A5 (Newisys)
+Device type: WAP|broadband router|general purpose
+Running: D-Link Linux 2.4.X, Netgear embedded, Linux 2.4.X
+OS details: D-Link DSL-G624T wireless ADSL router (MontaVista embedded Linux 2.4.17), or Netgear DG834Bv3 ADSL router or DG834G WAP, Linux 2.4.9 - 2.4.18 (likely embedded)
+Network Distance: 1 hop
+
+Nmap scan report for dvd.csh.rit.edu (129.21.49.153)
+Host is up (0.00012s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+631/tcp closed ipp
+MAC Address: 00:02:A5:4E:C0:A8 (Hewlett Packard)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.9 - 2.6.18
+Network Distance: 1 hop
+
+Nmap scan report for scorn.csh.rit.edu (129.21.49.154)
+Host is up (0.00012s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+111/tcp  open  rpcbind
+113/tcp  open  auth
+199/tcp  open  smux
+9102/tcp open  jetdirect
+MAC Address: 00:B0:D0:D0:EE:6C (Dell Computer)
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=33312%PV=N%DS=1%DC=D%G=Y%M=00B0D0%TM=4D
+OS:32584B%P=i686-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=10B%TI=I%CI=I%II=I%SS=S%
+OS:TS=21)SEQ(SP=105%GCD=1%ISR=10C%TI=I%CI=I%II=I%SS=S%TS=21)SEQ(SP=101%GCD=
+OS:1%ISR=10A%TI=I%CI=I%II=I%SS=S%TS=21)SEQ(SP=106%GCD=1%ISR=105%TI=I%CI=I%I
+OS:I=I%SS=S%TS=21)SEQ(SP=F9%GCD=1%ISR=100%TI=I%CI=I%II=I%SS=S%TS=22)OPS(O1=
+OS:M5B4NW3NNT11SLL%O2=M578NW3NNT11SLL%O3=M280NW3NNT11%O4=M5B4NW3NNT11SLL%O5
+OS:=M218NW3NNT11SLL%O6=M109NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=
+OS:FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M5B4NW3SLL%CC=N%Q=)T1(R=Y%DF=Y%T
+OS:=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=Y%T=40%W=FFFF%S=O%A=S+%F=AS%O
+OS:=M109NW3NNT11SLL%RD=0%Q=)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(
+OS:R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%
+OS:F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=S%T=40%CD=
+OS:S)
+
+Network Distance: 1 hop
+
+Nmap scan report for tron.csh.rit.edu (129.21.49.156)
+Host is up (0.00011s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+111/tcp open  rpcbind
+MAC Address: 00:0F:1F:65:63:A2 (WW Pcba Test)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.49.157
+Host is up (0.00013s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 00:09:6B:63:37:58 (IBM)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.17 - 2.6.31
+Network Distance: 1 hop
+
+Nmap scan report for tempmon.csh.rit.edu (129.21.49.159)
+Host is up (0.00013s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+5432/tcp open  postgresql
+MAC Address: 00:50:8B:EC:66:6F (Hewlett Packard)
+Device type: general purpose
+Running: FreeBSD 7.X
+OS details: FreeBSD 7.0-BETA4 - 7.0
+Network Distance: 1 hop
+
+Nmap scan report for flynn.csh.rit.edu (129.21.49.161)
+Host is up (0.00013s latency).
+Not shown: 993 closed ports
+PORT     STATE SERVICE
+7/tcp    open  echo
+22/tcp   open  ssh
+25/tcp   open  smtp
+53/tcp   open  domain
+111/tcp  open  rpcbind
+888/tcp  open  accessbuilder
+9102/tcp open  jetdirect
+MAC Address: 00:B0:D0:49:9D:75 (Dell Computer)
+Device type: general purpose
+Running: FreeBSD 6.X
+OS details: FreeBSD 6.1-RELEASE - 6.2
+Network Distance: 1 hop
+
+Nmap scan report for styx.csh.rit.edu (129.21.49.165)
+Host is up (0.00012s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+88/tcp   open  kerberos-sec
+199/tcp  open  smux
+749/tcp  open  kerberos-adm
+9102/tcp open  jetdirect
+MAC Address: 00:50:8B:EC:98:AA (Hewlett Packard)
+Device type: general purpose
+Running: FreeBSD 7.X|8.X
+OS details: FreeBSD 7.0-RELEASE-p1 - 8.0-CURRENT
+Network Distance: 1 hop
+
+Nmap scan report for mail.csh.rit.edu (129.21.49.169)
+Host is up (0.00011s latency).
+Not shown: 984 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+80/tcp   open  http
+110/tcp  open  pop3
+111/tcp  open  rpcbind
+119/tcp  open  nntp
+143/tcp  open  imap
+443/tcp  open  https
+465/tcp  open  smtps
+563/tcp  open  snews
+587/tcp  open  submission
+993/tcp  open  imaps
+995/tcp  open  pop3s
+5432/tcp open  postgresql
+7937/tcp open  nsrexecd
+7938/tcp open  lgtomapper
+MAC Address: 00:09:6B:49:9D:5A (IBM)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for charon.csh.rit.edu (129.21.49.172)
+Host is up (0.00012s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+199/tcp  open  smux
+2105/tcp open  eklogin
+9102/tcp open  jetdirect
+MAC Address: 00:50:8B:EC:7B:63 (Hewlett Packard)
+Device type: general purpose
+Running: FreeBSD 7.X|8.X
+OS details: FreeBSD 7.0-RELEASE-p1 - 8.0-CURRENT
+Network Distance: 1 hop
+
+Nmap scan report for rancor.csh.rit.edu (129.21.49.184)
+Host is up (0.000014s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+111/tcp  open  rpcbind
+113/tcp  open  auth
+2049/tcp open  nfs
+6667/tcp open  irc
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.19 - 2.6.31
+Network Distance: 0 hops
+
+Nmap scan report for ns2.csh.rit.edu (129.21.49.186)
+Host is up (0.00017s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+111/tcp  open  rpcbind
+199/tcp  open  smux
+9102/tcp open  jetdirect
+MAC Address: 00:50:8B:EC:77:C0 (Hewlett Packard)
+Device type: general purpose
+Running: FreeBSD 6.X
+OS details: FreeBSD 6.1-RELEASE - 6.2
+Network Distance: 1 hop
+
+Nmap scan report for norad.csh.rit.edu (129.21.49.188)
+Host is up (0.00016s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+111/tcp  open  rpcbind
+199/tcp  open  smux
+9102/tcp open  jetdirect
+MAC Address: 00:50:8B:EC:77:C0 (Hewlett Packard)
+Device type: general purpose
+Running: FreeBSD 6.X
+OS details: FreeBSD 6.1-RELEASE - 6.2
+Network Distance: 1 hop
+
+Nmap scan report for nis1.csh.rit.edu (129.21.49.189)
+Host is up (0.00013s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+111/tcp open  rpcbind
+MAC Address: 00:0F:1F:65:63:A2 (WW Pcba Test)
+Device type: general purpose
+Running: Linux 2.6.X
+OS details: Linux 2.6.13 - 2.6.28
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.49.198
+Host is up (0.0011s latency).
+All 1000 scanned ports on 129.21.49.198 are filtered
+MAC Address: 00:00:0C:07:AC:01 (Cisco Systems)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|VoIP phone|specialized
+Running (JUST GUESSING) : Linux 2.6.X (96%), Microsoft Windows 2003 (96%), Cisco embedded (96%), IBM i5/OS V5 (96%), Mirapoint embedded (96%), Polycom embedded (96%), Sun Solaris 10|7|9 (96%), Sun SunOS (96%)
+Aggressive OS guesses: Linux 2.6.21-gentoo-r4 (PowerPC) (96%), Microsoft Windows Server 2003 SP1 (96%), Cisco IP Phone 7912G (96%), IBM i5/OS V5R3M0 (96%), Linux 2.6.15-28-amd64-server (Ubuntu, x86_64, SMP) (96%), Linux 2.6.18.pi (x86) (96%), Microsoft Windows 2003 Small Business Server SP1 (96%), Mirapoint M2500 Message Server (96%), Polycom SoundPoint 501 IP phone (96%), Sun Solaris 10 (96%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.49.199
+Host is up (0.0014s latency).
+All 1000 scanned ports on 129.21.49.199 are filtered
+MAC Address: 00:00:0C:07:AC:01 (Cisco Systems)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|VoIP phone|specialized
+Running (JUST GUESSING) : Linux 2.6.X (96%), Microsoft Windows 2003 (96%), Cisco embedded (96%), IBM i5/OS V5 (96%), Mirapoint embedded (96%), Polycom embedded (96%), Sun Solaris 10|7|9 (96%), Sun SunOS (96%)
+Aggressive OS guesses: Linux 2.6.21-gentoo-r4 (PowerPC) (96%), Microsoft Windows Server 2003 SP1 (96%), Cisco IP Phone 7912G (96%), IBM i5/OS V5R3M0 (96%), Linux 2.6.15-28-amd64-server (Ubuntu, x86_64, SMP) (96%), Linux 2.6.18.pi (x86) (96%), Microsoft Windows 2003 Small Business Server SP1 (96%), Mirapoint M2500 Message Server (96%), Polycom SoundPoint 501 IP phone (96%), Sun Solaris 10 (96%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for chiclets.csh.rit.edu (129.21.49.201)
+Host is up (0.000094s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+111/tcp open  rpcbind
+443/tcp open  https
+MAC Address: 00:0F:1F:65:77:C8 (WW Pcba Test)
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=43705%PV=N%DS=1%DC=D%G=Y%M=000F1F%TM=4D
+OS:3258D6%P=i686-pc-linux-gnu)SEQ(SP=CC%GCD=1%ISR=D0%TI=Z%CI=Z%II=I%TS=7)SE
+OS:Q(SP=CC%GCD=2%ISR=D0%TI=Z%CI=Z%II=I%TS=7)OPS(O1=M5B4ST11NW6%O2=M5B4ST11N
+OS:W6%O3=M5B4NNT11NW6%O4=M5B4ST11NW6%O5=M5B4ST11NW6%O6=M5B4ST11)WIN(W1=16A0
+OS:%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M5B4
+OS:NNSNW6%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=Y
+OS:%T=40%W=16A0%S=O%A=S+%F=AS%O=M5B4ST11NW6%RD=0%Q=)T4(R=Y%DF=Y%T=40%W=0%S=
+OS:A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=
+OS:Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=A
+OS:R%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%R
+OS:UD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.49.239
+Host is up (0.0052s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+23/tcp open  telnet
+MAC Address: 00:90:B1:B1:B3:00 (Cisco Systems)
+Device type: switch
+Running: Cisco IOS 11.X
+OS details: Cisco 2900XL switch (IOS 11.2)
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.49.246
+Host is up (0.0016s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+443/tcp open  https
+MAC Address: 00:15:C5:DE:F8:27 (Dell)
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=31690%PV=N%DS=1%DC=D%G=Y%M=0015C5%TM=4D
+OS:3258D6%P=i686-pc-linux-gnu)SEQ(SP=12%GCD=14%ISR=50%TI=I%CI=I%II=I%SS=S%T
+OS:S=U)SEQ(SP=56%GCD=14%ISR=70%TI=I%CI=I%II=I%SS=S%TS=U)SEQ(SP=0%GCD=64%ISR
+OS:=50%TI=I%CI=I%II=I%SS=S%TS=U)SEQ(SP=52%GCD=14%ISR=6C%TI=I%CI=I%II=I%SS=S
+OS:%TS=U)OPS(O1=%O2=%O3=%O4=%O5=%O6=)WIN(W1=800%W2=800%W3=800%W4=800%W5=800
+OS:%W6=800)ECN(R=Y%DF=N%T=40%W=800%O=%CC=N%Q=)T1(R=Y%DF=N%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T1(R=Y%DF=N%T=40%S=O%A=O%F=AS%RD=0%Q=)T2(R=Y%DF=N%T=40%W=0%S=Z
+OS:%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=N%T=40%W=800%S=O%A=S+%F=AS%O=%RD=0%Q=)T4(
+OS:R=Y%DF=N%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=Z%A=S+%F
+OS:=AR%O=%RD=0%Q=)T6(R=Y%DF=N%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=N%T
+OS:=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID
+OS:=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.49.248
+Host is up (0.0011s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 00:23:34:F7:4D:41 (Cisco Systems)
+Device type: switch
+Running: Cisco IOS 12.X
+OS details: Cisco 2950, 2960, 3550, or 3560 switch (IOS 12.1 - 12.2)
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.49.249
+Host is up (0.0011s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+443/tcp open  https
+MAC Address: 00:23:AC:24:F8:C3 (Cisco Systems)
+Device type: switch
+Running: Cisco IOS 12.X
+OS details: Cisco 2950, 2960, 3550, or 3560 switch (IOS 12.1 - 12.2)
+Network Distance: 1 hop
+
+Nmap scan report for firewall49.csh.rit.edu (129.21.49.250)
+Host is up (0.00038s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+443/tcp closed https
+MAC Address: 00:16:C7:82:3C:00 (Cisco Systems)
+Device type: VoIP phone
+Running (JUST GUESSING) : Cisco embedded (87%)
+Aggressive OS guesses: Cisco IP Phone 7912G (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.49.251
+Host is up (0.00029s latency).
+Not shown: 998 filtered ports
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+443/tcp closed https
+MAC Address: 00:16:46:D5:02:00 (Cisco Systems)
+Device type: VoIP phone|switch
+Running (JUST GUESSING) : Cisco embedded (87%), HP embedded (85%)
+Aggressive OS guesses: Cisco IP Phone 7912G (87%), HP ProCurve 1800-24G switch (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for gatewayNY6.csh.rit.edu (129.21.49.252)
+Host is up (0.0012s latency).
+Not shown: 999 closed ports
+PORT    STATE    SERVICE
+161/tcp filtered snmp
+MAC Address: 00:D0:04:06:B4:00 (Pentacom)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|switch|WAP|VoIP adapter|VoIP phone
+Running (JUST GUESSING) : IBM z/OS (90%), Cisco IOS 12.X (90%), 2FXS embedded (89%), PORTech embedded (89%), Interbell embedded (89%), OpenBSD 3.X|4.X (89%), Planet MicroC/OS-II (89%), Polycom embedded (89%)
+Aggressive OS guesses: IBM z/OS v1r8 (90%), Cisco 3750 switch (IOS 12.2) (90%), Cisco Aironet 1231G WAP (IOS 12.3) (90%), 2FXS K-3288W or PORTech MV-374 GSM-SIP VoIP gateway (89%), Interbell IB-305 VoIP phone (89%), OpenBSD 3.9 (89%), OpenBSD 4.4 (89%), Planet VIP-154T VoIP phone (MicroC/OS-II) (89%), Polycom SoundPoint IP 301 VoIP phone (89%), PORTech GSM VoIP gateway (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.49.253
+Host is up (0.00097s latency).
+Not shown: 999 closed ports
+PORT    STATE    SERVICE
+161/tcp filtered snmp
+MAC Address: 00:D0:04:5A:94:00 (Pentacom)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: switch|WAP|general purpose|VoIP phone|router|VoIP adapter
+Running (JUST GUESSING) : Cisco IOS 12.X|11.X (92%), IBM z/OS (91%), OpenBSD 3.X|4.X (90%), Cisco embedded (90%), Cisco CatOS (89%)
+Aggressive OS guesses: Cisco 3750 switch (IOS 12.2) (92%), Cisco Aironet 1231G WAP (IOS 12.3) (92%), IBM z/OS v1r8 (91%), OpenBSD 3.9 (90%), OpenBSD 4.4 (90%), Cisco IP Phone 7912G (90%), Cisco 831 switch or 1760 router (IOS 12.4) (89%), Cisco 860 switch (IOS 12.4) (89%), Cisco Aironet 1240AG or 1250 WAP, 1811 or 2800 router, or VG 224 VoIP gateway (IOS 12.4) (89%), Cisco 3750 or 6500 switch (IOS 12.2) (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for gateway49.csh.rit.edu (129.21.49.254)
+Host is up (0.0013s latency).
+Not shown: 999 closed ports
+PORT    STATE    SERVICE
+161/tcp filtered snmp
+MAC Address: 00:00:0C:07:AC:01 (Cisco Systems)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: switch
+Running (JUST GUESSING) : SMC embedded (90%), Netgear embedded (88%), Cisco NX-OS 4.X (85%)
+Aggressive OS guesses: SMC 8024L2 switch (90%), Netgear ProSafe GS724T switch (88%), Cisco NX-OS 4.0(1a)N1(1) (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.50.1
+Host is up (0.0020s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+4242/tcp open  unknown
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=38520%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(CI=RI%II=I)SEQ(SP=106%GCD=1%ISR=10B%TI=Z%CI=RD%II=
+OS:I%TS=9)SEQ(SP=101%GCD=1%ISR=10D%TI=Z%CI=RD%II=I%TS=9)SEQ(SP=100%GCD=1%IS
+OS:R=100%TI=Z%CI=RD%II=I%TS=7)SEQ(SP=101%GCD=1%ISR=10A%TI=Z%CI=RD%II=I%TS=7
+OS:)OPS(O1=M564ST11NW0%O2=M564ST11NW0%O3=M564NNT11NW0%O4=M564ST11NW0%O5=M56
+OS:4ST11NW0%O6=M564ST11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0
+OS:)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW0%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+
+OS:%F=AS%RD=0%Q=)T1(R=Y%DF=Y%T=40%S=O%A=O%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=3B%W=8
+OS:0%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2B%W=80%S=A%A=S+%F=A
+OS:R%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2A%W=80%S=A%A=S+%F=AR%O=WANM109T10
+OS:S%RD=0%Q=)T2(R=Y%DF=Y%T=3C%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R
+OS:=Y%DF=Y%T=2F%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=35%W
+OS:=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2B%W=100%S=A%A=S+
+OS:%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=28%W=100%S=A%A=S+%F=AR%O=WANM1
+OS:09T10S%RD=0%Q=)T3(R=Y%DF=N%T=36%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T3(R=Y%DF=N%T=3B%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y
+OS:%T=2E%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=35%W=400%S
+OS:=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=37%W=400%S=A%A=S+%F=AR%
+OS:O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2F%W=400%S=A%A=S+%F=AR%O=WANM109T10S
+OS:%RD=0%Q=)T4(R=Y%DF=Y%T=3C%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=26%W=8000%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=28%W=8000%S=A%A=S+%F=AR%O=WA
+OS:NM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=3B%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD
+OS:=0%Q=)T6(R=Y%DF=Y%T=39%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y
+OS:%DF=N%T=2E%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=33%W
+OS:=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=31%W=FFFF%S=A%A=
+OS:S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2D%W=FFFF%S=A%A=S+%F=AR%O=WF
+OS:NM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUC
+OS:K=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.50.2
+Host is up (0.0017s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+23/tcp open  telnet
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=23%CT=1%CU=32309%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10E%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=
+OS:FE%GCD=1%ISR=10B%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=F9%GCD=1%ISR=109%TI=Z%CI=R
+OS:D%II=RI%TS=U)SEQ(SP=108%GCD=1%ISR=109%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=103%G
+OS:CD=1%ISR=10D%TI=Z%CI=RD%II=RI%TS=U)OPS(O1=M218%O2=M218%O3=M218%O4=M218%O
+OS:5=M218%O6=M109)WIN(W1=1020%W2=1020%W3=1020%W4=1020%W5=1020%W6=1020)ECN(R
+OS:=Y%DF=N%T=FF%W=1020%O=M218%CC=N%Q=)T1(R=Y%DF=N%T=FF%S=O%A=S+%F=AS%RD=0%Q
+OS:=)T2(R=Y%DF=Y%T=2A%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%
+OS:T=31%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2E%W=80%S=A%
+OS:A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=32%W=80%S=A%A=S+%F=AR%O=WA
+OS:NM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2C%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=
+OS:0%Q=)T3(R=Y%DF=N%T=39%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%D
+OS:F=N%T=3C%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=26%W=10
+OS:0%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2E%W=100%S=A%A=S+%F=
+OS:AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=37%W=400%S=A%A=S+%F=AR%O=WANM109T
+OS:10S%RD=0%Q=)T4(R=Y%DF=Y%T=3B%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T
+OS:4(R=Y%DF=Y%T=34%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=N%T=
+OS:FF%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=39%W=8000%S=A%A=S+%F=AR%O=
+OS:WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=32%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%
+OS:RD=0%Q=)T6(R=Y%DF=Y%T=28%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R
+OS:=Y%DF=Y%T=3A%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2F
+OS:%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=33%W=FFFF%S=A%
+OS:A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2C%W=FFFF%S=A%A=S+%F=AR%O=
+OS:WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=28%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%
+OS:RD=0%Q=)T7(R=Y%DF=N%T=36%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R
+OS:=Y%DF=N%T=FF%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=S%
+OS:T=FF%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.50.3
+Host is up (0.0029s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+23/tcp   open  telnet
+443/tcp  open  https
+4242/tcp open  unknown
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=34493%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(CI=RD)SEQ(SP=106%GCD=1%ISR=104%TI=Z%CI=RD%II=I%TS=
+OS:9)SEQ(SP=FE%GCD=1%ISR=104%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=105%GCD=1%ISR=10D%
+OS:TI=Z%CI=RI%II=I%TS=7)SEQ(SP=106%GCD=1%ISR=10C%TI=Z%CI=RD%II=I%TS=7)OPS(O
+OS:1=M564ST11NW0%O2=M564ST11NW0%O3=M564NNT11NW0%O4=M564ST11NW0%O5=M564ST11N
+OS:W0%O6=M564ST11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R
+OS:=Y%DF=Y%T=40%W=16D0%O=M564NNSNW0%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%
+OS:RD=0%Q=)T1(R=Y%DF=Y%T=40%S=O%A=O%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=3B%W=80%S=A%
+OS:A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=31%W=80%S=A%A=S+%F=AR%O=WA
+OS:NM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2F%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0
+OS:%Q=)T2(R=Y%DF=Y%T=36%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=
+OS:Y%T=35%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2E%W=100%S
+OS:=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=35%W=100%S=A%A=S+%F=AR%
+OS:O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=27%W=100%S=A%A=S+%F=AR%O=WANM109T10S
+OS:%RD=0%Q=)T3(R=Y%DF=N%T=2A%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R
+OS:=Y%DF=Y%T=28%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=29%
+OS:W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=27%W=400%S=A%A=S
+OS:+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=32%W=400%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=
+OS:Y%T=30%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=26%W=800
+OS:0%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2B%W=8000%S=A%A=S+%F
+OS:=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=29%W=8000%S=A%A=S+%F=AR%O=WANM10
+OS:9T10S%RD=0%Q=)T7(R=Y%DF=N%T=34%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q
+OS:=)T7(R=Y%DF=N%T=39%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=
+OS:N%T=31%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=36%W=FFF
+OS:F%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL
+OS:=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for limbo.csh.rit.edu (129.21.50.7)
+Host is up (0.00073s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+443/tcp  open  https
+873/tcp  open  rsync
+3306/tcp open  mysql
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=36523%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(CI=RD%II=I)SEQ(SP=107%GCD=1%ISR=107%TI=Z%CI=RD%II=
+OS:I%TS=C)SEQ(SP=F7%GCD=1%ISR=10C%TI=Z%CI=RD%II=I%TS=E)SEQ(SP=103%GCD=1%ISR
+OS:=109%TI=Z%CI=RI%II=I%TS=A)SEQ(SP=FD%GCD=1%ISR=101%TI=Z%CI=RD%II=I%TS=A)O
+OS:PS(O1=M564ST11NW6%O2=M564ST11NW6%O3=M564NNT11NW6%O4=M564ST11NW6%O5=M564S
+OS:T11NW6%O6=M564ST11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0)E
+OS:CN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW6%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F
+OS:=AS%RD=0%Q=)T1(R=Y%DF=Y%T=40%S=O%A=O%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=2B%W=80%
+OS:S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=26%W=80%S=A%A=S+%F=AR%
+OS:O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2A%W=80%S=A%A=S+%F=AR%O=WANM109T10S%
+OS:RD=0%Q=)T2(R=Y%DF=Y%T=3A%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y
+OS:%DF=N%T=34%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=26%W=
+OS:100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=36%W=100%S=A%A=S+%
+OS:F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=33%W=100%S=A%A=S+%F=AR%O=WANM10
+OS:9T10S%RD=0%Q=)T3(R=Y%DF=N%T=30%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=
+OS:)T4(R=Y%DF=Y%T=36%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%
+OS:T=2D%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2B%W=400%S=
+OS:A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=27%W=400%S=A%A=S+%F=AR%O
+OS:=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=
+OS:Y%DF=Y%T=36%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=37%
+OS:W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=31%W=8000%S=A%A
+OS:=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=34%W=8000%S=A%A=S+%F=AR%O=W
+OS:ANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=29%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%R
+OS:D=0%Q=)T7(R=Y%DF=N%T=3C%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=
+OS:Y%DF=N%T=36%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=35%
+OS:W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=39%W=FFFF%S=A%A
+OS:=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=
+OS:G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for feely.csh.rit.edu (129.21.50.12)
+Host is up (0.00076s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=40750%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(CI=RD%II=I)SEQ(SP=100%GCD=1%ISR=10A%TI=Z%CI=RD%II=
+OS:I%TS=A)SEQ(SP=105%GCD=1%ISR=10D%TI=Z%CI=RD%II=I%TS=B)SEQ(SP=108%GCD=1%IS
+OS:R=109%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=104%GCD=1%ISR=109%TI=Z%CI=RD%II=I%TS=8
+OS:)OPS(O1=M564ST11NW4%O2=M564ST11NW4%O3=M564NNT11NW4%O4=M564ST11NW4%O5=M56
+OS:4ST11NW4%O6=M564ST11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0
+OS:)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW4%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+
+OS:%F=AS%RD=0%Q=)T1(R=Y%DF=Y%T=40%S=O%A=O%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=32%W=8
+OS:0%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=35%W=80%S=A%A=S+%F=A
+OS:R%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=30%W=80%S=A%A=S+%F=AR%O=WANM109T10
+OS:S%RD=0%Q=)T2(R=Y%DF=Y%T=2F%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R
+OS:=Y%DF=Y%T=3B%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=33%W
+OS:=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=27%W=100%S=A%A=S+
+OS:%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2A%W=100%S=A%A=S+%F=AR%O=WANM1
+OS:09T10S%RD=0%Q=)T3(R=Y%DF=N%T=29%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T3(R=Y%DF=N%T=2E%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y
+OS:%T=3B%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=34%W=400%S
+OS:=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=30%W=400%S=A%A=S+%F=AR%
+OS:O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=32%W=400%S=A%A=S+%F=AR%O=WANM109T10S
+OS:%RD=0%Q=)T4(R=Y%DF=Y%T=35%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=32%W=8000%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=26%W=8000%S=A%A=S+%F=AR%O=WA
+OS:NM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=37%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD
+OS:=0%Q=)T6(R=Y%DF=Y%T=3B%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y
+OS:%DF=Y%T=2A%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2E%W
+OS:=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2B%W=FFFF%S=A%A=
+OS:S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=36%W=FFFF%S=A%A=S+%F=AR%O=WF
+OS:NM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=30%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD
+OS:=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE
+OS:(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.50.14
+Host is up (0.00060s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=39969%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=CB%GCD=1%ISR=CA%TI=Z%CI=RI%II=I%TS=8)SEQ(SP=CB%
+OS:GCD=1%ISR=CA%TI=Z%CI=RD%II=I%TS=A)SEQ(CI=RD%II=I)SEQ(SP=CB%GCD=1%ISR=CA%
+OS:TI=Z%CI=RI%II=I%TS=A)OPS(O1=M5B4ST11NW6%O2=M5B4ST11NW6%O3=M5B4NNT11NW6%O
+OS:4=M5B4ST11NW6%O5=M5B4ST11NW6%O6=M5B4ST11)OPS(O1=NNT11%O2=NNT11%O3=NNT11%
+OS:O4=NNT11%O5=NNT11%O6=NNT11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W
+OS:6=16A0)ECN(R=Y%DF=Y%T=41%W=16D0%O=M5B4NNSNW6%CC=Y%Q=)ECN(R=Y%DF=Y%T=41%W
+OS:=16D0%O=%CC=N%Q=)T1(R=Y%DF=Y%T=41%S=O%A=O%F=AS%RD=0%Q=)T1(R=Y%DF=Y%T=41%
+OS:S=O%A=O%F=A%RD=0%Q=)T2(R=Y%DF=Y%T=27%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD
+OS:=0%Q=)T2(R=Y%DF=Y%T=34%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%D
+OS:F=Y%T=33%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2B%W=80%
+OS:S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=35%W=100%S=A%A=S+%F=AR
+OS:%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2F%W=100%S=A%A=S+%F=AR%O=WANM109T10
+OS:S%RD=0%Q=)T3(R=Y%DF=N%T=3C%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(
+OS:R=Y%DF=N%T=2D%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2B
+OS:%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=38%W=400%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=3C%W=400%S=A%A=S+%F=AR%O=WAN
+OS:M109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=33%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0
+OS:%Q=)T4(R=Y%DF=Y%T=36%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF
+OS:=Y%T=2B%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=41%W=0%S
+OS:=Z%A=O%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=32%W=8000%S=A%A=S+%F=AR%O=WANM109T1
+OS:0S%RD=0%Q=)T6(R=Y%DF=Y%T=30%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T
+OS:6(R=Y%DF=Y%T=2E%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T
+OS:=29%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2B%W=8000%S
+OS:=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=27%W=FFFF%S=A%A=S+%F=AR
+OS:%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=38%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T1
+OS:0S%RD=0%Q=)T7(R=Y%DF=N%T=3B%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T
+OS:7(R=Y%DF=N%T=30%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T
+OS:=2A%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=41%IPL=164%
+OS:UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=41%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for soap-south.csh.rit.edu (129.21.50.15)
+Host is up (0.0014s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+111/tcp open  rpcbind
+113/tcp open  auth
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=35708%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=FF%GCD=1%ISR=10E%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=10
+OS:3%GCD=1%ISR=10F%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=106%GCD=1%ISR=10B%TI=Z%CI=RD
+OS:%II=I%TS=8)SEQ(SP=102%GCD=1%ISR=104%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=104%GCD=
+OS:1%ISR=10C%TI=Z%CI=RD%II=I%TS=8)OPS(O1=M564ST11NW3%O2=M564ST11NW3%O3=M564
+OS:NNT11NW3%O4=M564ST11NW3%O5=M564ST11NW3%O6=M564ST11)WIN(W1=16A0%W2=16A0%W
+OS:3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW3%CC=
+OS:N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=32%W=80%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=30%W=80%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=3B%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T3(R=Y%DF=N%T=33%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N
+OS:%T=35%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=32%W=100%S
+OS:=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2E%W=100%S=A%A=S+%F=AR%
+OS:O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2D%W=100%S=A%A=S+%F=AR%O=WANM109T10S
+OS:%RD=0%Q=)T4(R=Y%DF=Y%T=27%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R
+OS:=Y%DF=Y%T=3B%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=38%
+OS:W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=26%W=400%S=A%A=S
+OS:+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=39%W=400%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=
+OS:Y%T=2A%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2F%W=800
+OS:0%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=31%W=8000%S=A%A=S+%F
+OS:=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=34%W=8000%S=A%A=S+%F=AR%O=WANM10
+OS:9T10S%RD=0%Q=)T6(R=Y%DF=Y%T=3B%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T7(R=Y%DF=N%T=39%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=
+OS:N%T=36%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=3C%W=FFF
+OS:F%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=29%W=FFFF%S=A%A=S+%F
+OS:=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2B%W=FFFF%S=A%A=S+%F=AR%O=WFNM10
+OS:9T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%
+OS:RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for games.csh.rit.edu (129.21.50.16)
+Host is up (0.0014s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+23/tcp  open  telnet
+80/tcp  open  http
+111/tcp open  rpcbind
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=39947%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10F%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=1
+OS:07%GCD=1%ISR=10C%TI=Z%CI=RI%II=I%TS=8)SEQ(SP=100%GCD=1%ISR=10F%TI=Z%CI=R
+OS:D%II=I%TS=8)SEQ(SP=103%GCD=1%ISR=10E%TI=Z%CI=RI%II=I%TS=8)SEQ(SP=102%GCD
+OS:=1%ISR=106%TI=Z%CI=RD%II=I%TS=8)OPS(O1=M564ST11NW6%O2=M564ST11NW6%O3=M56
+OS:4NNT11NW6%O4=M564ST11NW6%O5=M564ST11NW6%O6=M564ST11)WIN(W1=16A0%W2=16A0%
+OS:W3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW6%CC
+OS:=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=34%W=80%S=A%A
+OS:=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=38%W=80%S=A%A=S+%F=AR%O=WAN
+OS:M109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=31%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%
+OS:Q=)T2(R=Y%DF=Y%T=3C%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N
+OS:%T=34%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=33%W=100%S
+OS:=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=36%W=100%S=A%A=S+%F=AR%
+OS:O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=27%W=100%S=A%A=S+%F=AR%O=WANM109T10S
+OS:%RD=0%Q=)T4(R=Y%DF=Y%T=29%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R
+OS:=Y%DF=Y%T=2E%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=30%
+OS:W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=34%W=400%S=A%A=S
+OS:+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=3C%W=400%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=
+OS:Y%T=2B%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=3A%W=800
+OS:0%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=29%W=8000%S=A%A=S+%F
+OS:=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2D%W=8000%S=A%A=S+%F=AR%O=WANM10
+OS:9T10S%RD=0%Q=)T6(R=Y%DF=Y%T=35%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T7(R=Y%DF=N%T=38%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=
+OS:N%T=31%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=28%W=FFF
+OS:F%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2F%W=FFFF%S=A%A=S+%F
+OS:=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIP
+OS:CK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for bdm.csh.rit.edu (129.21.50.18)
+Host is up (0.0051s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+23/tcp open  telnet
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=21%CT=1%CU=35291%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10C%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=
+OS:105%GCD=1%ISR=109%TI=Z%CI=RI%II=RI%TS=U)SEQ(SP=102%GCD=1%ISR=106%TI=Z%CI
+OS:=RI%II=RI%TS=U)SEQ(SP=107%GCD=1%ISR=10C%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=109
+OS:%GCD=1%ISR=10C%TI=Z%CI=RI%II=RI%TS=U)OPS(O1=M564%O2=M564%O3=M564%O4=M564
+OS:%O5=M564%O6=M564)WIN(W1=1000%W2=1000%W3=1000%W4=1000%W5=1000%W6=1000)ECN
+OS:(R=Y%DF=Y%T=40%W=1000%O=M564%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0
+OS:%Q=)T2(R=Y%DF=Y%T=31%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=
+OS:Y%T=3A%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=26%W=80%S=
+OS:A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=30%W=80%S=A%A=S+%F=AR%O=
+OS:WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=33%W=100%S=A%A=S+%F=AR%O=WANM109T10S%R
+OS:D=0%Q=)T3(R=Y%DF=N%T=30%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y
+OS:%DF=N%T=2F%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=27%W=
+OS:100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=34%W=400%S=A%A=S+%
+OS:F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=39%W=400%S=A%A=S+%F=AR%O=WANM10
+OS:9T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2A%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=
+OS:)T4(R=Y%DF=Y%T=2E%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%
+OS:T=2B%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=O%
+OS:A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=2D%W=8000%S=A%A=S+%F=AR%O=WANM109T10S
+OS:%RD=0%Q=)T6(R=Y%DF=Y%T=27%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(
+OS:R=Y%DF=Y%T=28%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=3
+OS:3%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=3B%W=FFFF%S=A
+OS:%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2D%W=FFFF%S=A%A=S+%F=AR%O
+OS:=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=34%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S
+OS:%RD=0%Q=)T7(R=Y%DF=N%T=39%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(
+OS:R=Y%DF=N%T=2A%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=4
+OS:0%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=S%T=FF%CD=Z)
+
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.50.19
+Host is up (0.0040s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+23/tcp open  telnet
+No OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=21%CT=1%CU=34454%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=F5%GCD=1%ISR=10F%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=1
+OS:05%GCD=1%ISR=10B%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=FD%GCD=1%ISR=FE%TI=Z%CI=RI
+OS:%II=RI%TS=U)SEQ(SP=105%GCD=1%ISR=10E%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=103%GC
+OS:D=1%ISR=106%TI=Z%CI=RD%II=RI%TS=U)OPS(O1=M564%O2=M564%O3=M564%O4=M564%O5
+OS:=M564%O6=M564)WIN(W1=1000%W2=1000%W3=1000%W4=1000%W5=1000%W6=1000)ECN(R=
+OS:Y%DF=Y%T=40%W=1000%O=M564%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=
+OS:)T2(R=Y%DF=Y%T=37%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T
+OS:=2A%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=3C%W=80%S=A%A
+OS:=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=30%W=80%S=A%A=S+%F=AR%O=WAN
+OS:M109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=38%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%
+OS:Q=)T3(R=Y%DF=N%T=36%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=
+OS:N%T=37%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=39%W=100%
+OS:S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=3C%W=100%S=A%A=S+%F=AR
+OS:%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=38%W=100%S=A%A=S+%F=AR%O=WANM109T10
+OS:S%RD=0%Q=)T4(R=Y%DF=Y%T=27%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(
+OS:R=Y%DF=Y%T=29%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=31
+OS:%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2C%W=400%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=39%W=400%S=A%A=S+%F=AR%O=WAN
+OS:M109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF
+OS:=Y%T=31%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=32%W=80
+OS:00%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=34%W=8000%S=A%A=S+%
+OS:F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=35%W=8000%S=A%A=S+%F=AR%O=WANM1
+OS:09T10S%RD=0%Q=)T6(R=Y%DF=Y%T=33%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%
+OS:Q=)T7(R=Y%DF=N%T=38%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF
+OS:=N%T=26%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=39%W=FF
+OS:FF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2E%W=FFFF%S=A%A=S+%
+OS:F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=29%W=FFFF%S=A%A=S+%F=AR%O=WFNM1
+OS:09T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%
+OS:RUD=G)IE(R=Y%DFI=S%T=FF%CD=Z)
+
+Network Distance: 1 hop
+
+Nmap scan report for bootmastah.csh.rit.edu (129.21.50.30)
+Host is up (0.0015s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=39117%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=10C%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=1
+OS:05%GCD=1%ISR=106%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=104%GCD=1%ISR=10B%TI=Z%CI=R
+OS:I%II=I%TS=8)SEQ(SP=FF%GCD=1%ISR=10D%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=106%GCD=
+OS:1%ISR=10D%TI=Z%CI=RD%II=I%TS=8)OPS(O1=M564ST11NW6%O2=M564ST11NW6%O3=M564
+OS:NNT11NW6%O4=M564ST11NW6%O5=M564ST11NW6%O6=M564ST11)WIN(W1=16A0%W2=16A0%W
+OS:3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW6%CC=
+OS:Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=3B%W=80%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=26%W=80%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2E%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T2(R=Y%DF=Y%T=2C%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%
+OS:T=2D%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2A%W=100%S=A
+OS:%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2C%W=100%S=A%A=S+%F=AR%O=
+OS:WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2F%W=100%S=A%A=S+%F=AR%O=WANM109T10S%R
+OS:D=0%Q=)T3(R=Y%DF=N%T=38%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y
+OS:%DF=Y%T=36%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=26%W=
+OS:400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=34%W=400%S=A%A=S+%
+OS:F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2B%W=400%S=A%A=S+%F=AR%O=WANM10
+OS:9T10S%RD=0%Q=)T4(R=Y%DF=Y%T=27%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=
+OS:)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=32%W=8000%S
+OS:=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=36%W=8000%S=A%A=S+%F=AR
+OS:%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=28%W=8000%S=A%A=S+%F=AR%O=WANM109T1
+OS:0S%RD=0%Q=)T6(R=Y%DF=Y%T=2C%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T
+OS:6(R=Y%DF=Y%T=2D%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T
+OS:=28%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=39%W=FFFF%S
+OS:=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2B%W=FFFF%S=A%A=S+%F=AR
+OS:%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2A%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T1
+OS:0S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD
+OS:=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for infosys.csh.rit.edu (129.21.50.33)
+Host is up (0.0012s latency).
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE
+22/tcp   closed ssh
+80/tcp   closed http
+443/tcp  closed https
+8080/tcp open   http-proxy
+Device type: general purpose
+Running (JUST GUESSING) : Linux 2.6.X (88%)
+Aggressive OS guesses: Linux 2.6.18.pi (x86) (88%), Linux 2.6.15-28-amd64-server (Ubuntu, x86_64, SMP) (87%), Linux 2.6.21-gentoo-r4 (PowerPC) (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for soap.csh.rit.edu (129.21.50.34)
+Host is up (0.0016s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=43897%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10B%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=1
+OS:05%GCD=1%ISR=10A%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=105%GCD=1%ISR=10F%TI=Z%CI=R
+OS:D%II=I%TS=8)SEQ(SP=FF%GCD=1%ISR=109%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=107%GCD=
+OS:1%ISR=10A%TI=Z%CI=RD%II=I%TS=8)OPS(O1=M564ST11NW2%O2=M564ST11NW2%O3=M564
+OS:NNT11NW2%O4=M564ST11NW2%O5=M564ST11NW2%O6=M564ST11)WIN(W1=16A0%W2=16A0%W
+OS:3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW2%CC=
+OS:N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=36%W=80%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=30%W=80%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=28%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T2(R=Y%DF=Y%T=2D%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%
+OS:T=38%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=37%W=100%S=A
+OS:%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=3B%W=100%S=A%A=S+%F=AR%O=
+OS:WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2A%W=100%S=A%A=S+%F=AR%O=WANM109T10S%R
+OS:D=0%Q=)T3(R=Y%DF=N%T=31%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y
+OS:%DF=N%T=33%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2B%W=
+OS:400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2E%W=400%S=A%A=S+%
+OS:F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=33%W=400%S=A%A=S+%F=AR%O=WANM10
+OS:9T10S%RD=0%Q=)T4(R=Y%DF=Y%T=3C%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=
+OS:)T4(R=Y%DF=Y%T=30%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%
+OS:T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=33%W=8000%S=A%A=S+%F=AR%
+OS:O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=34%W=8000%S=A%A=S+%F=AR%O=WANM109T10
+OS:S%RD=0%Q=)T6(R=Y%DF=Y%T=27%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6
+OS:(R=Y%DF=Y%T=2C%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=
+OS:3A%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=29%W=FFFF%S=
+OS:A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=28%W=FFFF%S=A%A=S+%F=AR%
+OS:O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=30%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10
+OS:S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=
+OS:G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for snackm.csh.rit.edu (129.21.50.36)
+Host is up (0.0050s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+23/tcp open  telnet
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=21%CT=1%CU=38004%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=110%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=
+OS:100%GCD=1%ISR=10D%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=FD%GCD=1%ISR=10A%TI=Z%CI=
+OS:RI%II=RI%TS=U)SEQ(SP=101%GCD=1%ISR=10E%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=104%
+OS:GCD=1%ISR=10A%TI=Z%CI=RD%II=RI%TS=U)OPS(O1=M564%O2=M564%O3=M564%O4=M564%
+OS:O5=M564%O6=M564)WIN(W1=1000%W2=1000%W3=1000%W4=1000%W5=1000%W6=1000)ECN(
+OS:R=Y%DF=Y%T=40%W=1000%O=M564%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%
+OS:Q=)T2(R=Y%DF=Y%T=31%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y
+OS:%T=2F%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=33%W=80%S=A
+OS:%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=3B%W=80%S=A%A=S+%F=AR%O=W
+OS:ANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2D%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=
+OS:0%Q=)T3(R=Y%DF=N%T=27%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%D
+OS:F=N%T=2B%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=29%W=10
+OS:0%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=34%W=100%S=A%A=S+%F=
+OS:AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=28%W=400%S=A%A=S+%F=AR%O=WANM109T
+OS:10S%RD=0%Q=)T4(R=Y%DF=Y%T=3C%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T
+OS:4(R=Y%DF=Y%T=36%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=
+OS:29%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=27%W=400%S=A%
+OS:A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD
+OS:=0%Q=)T6(R=Y%DF=Y%T=27%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y
+OS:%DF=Y%T=32%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=39%W
+OS:=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=30%W=8000%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2C%W=FFFF%S=A%A=S+%F=AR%O=WF
+OS:NM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=27%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD
+OS:=0%Q=)T7(R=Y%DF=N%T=2F%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y
+OS:%DF=N%T=2E%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=30%W
+OS:=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%R
+OS:IPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=S%T=FF%CD=Z)
+
+Network Distance: 1 hop
+
+Nmap scan report for megazord.csh.rit.edu (129.21.50.41)
+Host is up (0.0015s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2049/tcp open  nfs
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=30018%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=108%GCD=1%ISR=106%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=1
+OS:05%GCD=1%ISR=10E%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=105%GCD=1%ISR=10C%TI=Z%CI=R
+OS:D%II=I%TS=8)SEQ(SP=101%GCD=1%ISR=109%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=106%GCD
+OS:=1%ISR=10B%TI=Z%CI=RD%II=I%TS=8)OPS(O1=M564ST11NW5%O2=M564ST11NW5%O3=M56
+OS:4NNT11NW5%O4=M564ST11NW5%O5=M564ST11NW5%O6=M564ST11)WIN(W1=16A0%W2=16A0%
+OS:W3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW5%CC
+OS:=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=38%W=80%S=A%A
+OS:=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2D%W=80%S=A%A=S+%F=AR%O=WAN
+OS:M109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2E%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%
+OS:Q=)T2(R=Y%DF=Y%T=2C%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y
+OS:%T=35%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=29%W=100%S=
+OS:A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=32%W=100%S=A%A=S+%F=AR%O
+OS:=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=28%W=100%S=A%A=S+%F=AR%O=WANM109T10S%
+OS:RD=0%Q=)T3(R=Y%DF=N%T=30%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=
+OS:Y%DF=N%T=33%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=35%W
+OS:=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=34%W=400%S=A%A=S+
+OS:%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=3A%W=400%S=A%A=S+%F=AR%O=WANM1
+OS:09T10S%RD=0%Q=)T4(R=Y%DF=Y%T=3C%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T4(R=Y%DF=Y%T=2F%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y
+OS:%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=31%W=8000%S=A%A=S+%F=AR
+OS:%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=26%W=8000%S=A%A=S+%F=AR%O=WANM109T1
+OS:0S%RD=0%Q=)T6(R=Y%DF=Y%T=2B%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T
+OS:7(R=Y%DF=N%T=3B%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T
+OS:=29%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2D%W=FFFF%S
+OS:=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=39%W=FFFF%S=A%A=S+%F=AR
+OS:%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=35%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T1
+OS:0S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD
+OS:=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for monicalewprinski.csh.rit.edu (129.21.50.45)
+Host is up (0.0023s latency).
+Not shown: 990 closed ports
+PORT      STATE SERVICE
+21/tcp    open  ftp
+23/tcp    open  telnet
+80/tcp    open  http
+280/tcp   open  http-mgmt
+443/tcp   open  https
+515/tcp   open  printer
+631/tcp   open  ipp
+7627/tcp  open  unknown
+9100/tcp  open  jetdirect
+14000/tcp open  unknown
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=21%CT=1%CU=31706%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10C%TI=I%CI=RD%II=I%SS=S%TS=1)SEQ
+OS:(SP=FE%GCD=1%ISR=110%TI=I%CI=RD%II=I%SS=S%TS=1)SEQ(SP=104%GCD=1%ISR=106%
+OS:TI=I%CI=RD%II=I%SS=S%TS=1)SEQ(SP=106%GCD=1%ISR=10A%TI=I%CI=RD%II=I%SS=S%
+OS:TS=1)OPS(O1=M564NW0NNT11%O2=M564NW0NNT11%O3=M564NW0NNT11%O4=M564NW0NNT11
+OS:%O5=M564NW0NNT11%O6=M564NNT11)WIN(W1=5B4%W2=5B4%W3=5B4%W4=5B4%W5=5B4%W6=
+OS:5B4)ECN(R=Y%DF=N%T=40%W=5B4%O=M564NW0%CC=N%Q=)T1(R=Y%DF=N%T=40%S=O%A=S+%
+OS:F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=28%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T
+OS:2(R=Y%DF=Y%T=38%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=3
+OS:0%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=31%W=80%S=A%A=S
+OS:+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2B%W=100%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T3(R=Y%DF=N%T=36%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%
+OS:Q=)T3(R=Y%DF=N%T=31%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=
+OS:N%T=3A%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=33%W=400%
+OS:S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=29%W=400%S=A%A=S+%F=AR
+OS:%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=3C%W=400%S=A%A=S+%F=AR%O=WANM109T10
+OS:S%RD=0%Q=)T4(R=Y%DF=Y%T=28%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(
+OS:R=Y%DF=Y%T=30%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=N%T=40
+OS:%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=28%W=8000%S=A%A=S+%F=AR%O=WA
+OS:NM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=31%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD
+OS:=0%Q=)T6(R=Y%DF=Y%T=37%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y
+OS:%DF=Y%T=30%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2D%W
+OS:=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=38%W=FFFF%S=A%A=
+OS:S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2E%W=FFFF%S=A%A=S+%F=AR%O=WF
+OS:NM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=37%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD
+OS:=0%Q=)T7(R=Y%DF=N%T=30%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y
+OS:%DF=N%T=39%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%I
+OS:PL=38%UN=0%RIPL=G%RID=4210%RIPCK=G%RUCK=0%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for randommac.csh.rit.edu (129.21.50.70)
+Host is up (0.0016s latency).
+Not shown: 985 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+2161/tcp  open  apc-agent
+3052/tcp  open  powerchute
+3689/tcp  open  rendezvous
+5357/tcp  open  unknown
+5800/tcp  open  vnc-http
+5900/tcp  open  vnc
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+49158/tcp open  unknown
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=135%CT=1%CU=33139%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P
+OS:=i686-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10A%TI=I%CI=RI%II=I%SS=S%TS=7)SE
+OS:Q(SP=F9%GCD=1%ISR=108%CI=RD%II=I%TS=7)SEQ(SP=106%GCD=1%ISR=10C%CI=RD%II=
+OS:I%TS=7)SEQ(SP=105%GCD=1%ISR=109%CI=RD%II=I%TS=7)SEQ(SP=109%GCD=1%ISR=10B
+OS:%TI=I%CI=RD%II=I%SS=S%TS=7)OPS(O1=M564NW8ST11%O2=M564NW8ST11%O3=M564NW8N
+OS:NT11%O4=M564NW8ST11%O5=M564NW8ST11%O6=M564ST11)WIN(W1=2000%W2=2000%W3=20
+OS:00%W4=2000%W5=2000%W6=2000)ECN(R=Y%DF=Y%T=80%W=2000%O=M564NW8NNS%CC=N%Q=
+OS:)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=39%W=80%S=A%A=S+%F
+OS:=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=31%W=80%S=A%A=S+%F=AR%O=WANM109T
+OS:10S%RD=0%Q=)T2(R=Y%DF=Y%T=30%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2
+OS:(R=Y%DF=Y%T=36%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2F
+OS:%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=36%W=100%S=A%A=S
+OS:+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=3C%W=100%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T3(R=Y%DF=N%T=37%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%
+OS:Q=)T3(R=Y%DF=N%T=2F%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=
+OS:N%T=2A%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=3A%W=400%
+OS:S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2A%W=400%S=A%A=S+%F=AR
+OS:%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=35%W=400%S=A%A=S+%F=AR%O=WANM109T10
+OS:S%RD=0%Q=)T4(R=Y%DF=Y%T=29%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(
+OS:R=Y%DF=Y%T=2C%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=80
+OS:%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=31%W=8000%S=A%A=S+%F=AR%O=WA
+OS:NM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=28%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD
+OS:=0%Q=)T6(R=Y%DF=Y%T=2C%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y
+OS:%DF=Y%T=27%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=33%W
+OS:=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=39%W=FFFF%S=A%A=
+OS:S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=36%W=FFFF%S=A%A=S+%F=AR%O=WF
+OS:NM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=38%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD
+OS:=0%Q=)T7(R=Y%DF=N%T=34%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y
+OS:%DF=N%T=32%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=80%I
+OS:PL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 1 hop
+
+Nmap scan report for xx0r.csh.rit.edu (129.21.50.71)
+Host is up (0.0014s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+113/tcp  open  auth
+993/tcp  open  imaps
+1322/tcp open  unknown
+No OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=34803%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=10D%TI=Z%CI=RD%II=RI%TS=A)SEQ(SP=
+OS:108%GCD=1%ISR=10C%TI=Z%CI=RD%II=RI%TS=A)SEQ(SP=FD%GCD=1%ISR=10C%TI=Z%CI=
+OS:RD%II=RI%TS=A)SEQ(SP=101%GCD=1%ISR=10C%TI=Z%CI=RD%II=RI%TS=A)SEQ(SP=107%
+OS:GCD=1%ISR=107%TI=Z%CI=RD%II=RI%TS=A)OPS(O1=M564ST11NW6%O2=M564ST11NW6%O3
+OS:=M564NNT11NW6%O4=M564ST11NW6%O5=M564ST11NW6%O6=M564ST11)WIN(W1=16A0%W2=1
+OS:6A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=3F%W=16D0%O=M564NNSNW
+OS:6%CC=Y%Q=)T1(R=Y%DF=Y%T=3F%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=2D%W=80%S
+OS:=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=30%W=80%S=A%A=S+%F=AR%O
+OS:=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=33%W=80%S=A%A=S+%F=AR%O=WANM109T10S%R
+OS:D=0%Q=)T2(R=Y%DF=Y%T=38%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%
+OS:DF=Y%T=31%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=33%W=10
+OS:0%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=34%W=100%S=A%A=S+%F=
+OS:AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2B%W=100%S=A%A=S+%F=AR%O=WANM109T
+OS:10S%RD=0%Q=)T3(R=Y%DF=N%T=35%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T
+OS:4(R=Y%DF=Y%T=30%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=
+OS:32%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=26%W=400%S=A%
+OS:A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=33%W=400%S=A%A=S+%F=AR%O=W
+OS:ANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2D%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD
+OS:=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=37%W=8
+OS:000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2B%W=8000%S=A%A=S+
+OS:%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=38%W=8000%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=3A%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0
+OS:%Q=)T7(R=Y%DF=N%T=36%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%D
+OS:F=N%T=2D%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=31%W=F
+OS:FFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=37%W=FFFF%S=A%A=S+
+OS:%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=29%W=FFFF%S=A%A=S+%F=AR%O=WFNM
+OS:109T10S%RD=0%Q=)U1(R=Y%DF=N%T=FF%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G
+OS:%RUD=G)IE(R=Y%DFI=S%T=FF%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for chihiro.csh.rit.edu (129.21.50.73)
+Host is up (0.0015s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+No OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=43673%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=10A%TI=RD%CI=RD%II=RI%TS=21)SEQ(S
+OS:P=108%GCD=1%ISR=10C%TI=RD%CI=RD%II=RI%TS=21)SEQ(SP=104%GCD=1%ISR=10D%TI=
+OS:RD%CI=RD%II=RI%TS=22)SEQ(SP=106%GCD=1%ISR=10B%TI=RD%CI=RI%II=RI%TS=21)SE
+OS:Q(SP=106%GCD=1%ISR=10B%TI=RD%CI=RD%II=RI%TS=22)OPS(O1=M564NNSNW0NNT11%O2
+OS:=M564NNSNW0NNT11%O3=M564NW0NNT11%O4=M564NNSNW0NNT11%O5=M564NNSNW0NNT11%O
+OS:6=M564NNSNNT11)WIN(W1=4000%W2=4000%W3=4000%W4=4000%W5=4000%W6=4000)ECN(R
+OS:=Y%DF=N%T=40%W=4000%O=M564NNSNW0%CC=N%Q=)T1(R=Y%DF=N%T=40%S=O%A=S+%F=AS%
+OS:RD=0%Q=)T2(R=Y%DF=Y%T=2C%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y
+OS:%DF=Y%T=31%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2F%W=8
+OS:0%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=37%W=80%S=A%A=S+%F=A
+OS:R%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2E%W=80%S=A%A=S+%F=AR%O=WANM109T10
+OS:S%RD=0%Q=)T3(R=Y%DF=N%T=30%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(
+OS:R=Y%DF=N%T=3B%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=34
+OS:%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=27%W=100%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=3C%W=100%S=A%A=S+%F=AR%O=WAN
+OS:M109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=36%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0
+OS:%Q=)T4(R=Y%DF=Y%T=33%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF
+OS:=Y%T=2A%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=3C%W=400
+OS:%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=38%W=400%S=A%A=S+%F=A
+OS:R%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6
+OS:(R=Y%DF=Y%T=31%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=
+OS:2B%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=3B%W=8000%S=
+OS:A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2D%W=8000%S=A%A=S+%F=AR%
+OS:O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=36%W=8000%S=A%A=S+%F=AR%O=WANM109T10
+OS:S%RD=0%Q=)T7(R=Y%DF=N%T=28%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7
+OS:(R=Y%DF=N%T=3C%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=
+OS:2D%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=3B%W=FFFF%S=
+OS:A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=39%W=FFFF%S=A%A=S+%F=AR%
+OS:O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=FF%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%
+OS:RUCK=G%RUD=G)IE(R=Y%DFI=N%T=FF%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for innsbrook.csh.rit.edu (129.21.50.78)
+Host is up (0.0028s latency).
+Not shown: 987 filtered ports
+PORT      STATE SERVICE
+80/tcp    open  http
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+554/tcp   open  rtsp
+912/tcp   open  unknown
+3389/tcp  open  ms-term-serv
+10243/tcp open  unknown
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+49156/tcp open  unknown
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING) : Microsoft Windows 2008 (85%)
+Aggressive OS guesses: Microsoft Windows Server 2008 SP1 (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for magneton.csh.rit.edu (129.21.50.85)
+Host is up (0.0011s latency).
+Not shown: 997 filtered ports
+PORT      STATE SERVICE
+80/tcp    open  http
+443/tcp   open  https
+24800/tcp open  unknown
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized|general purpose
+Running (JUST GUESSING) : Mirapoint embedded (85%), Sun Solaris 7 (85%)
+Aggressive OS guesses: Mirapoint M2500 Message Server (85%), Sun Solaris 7 (SPARC) (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for nuclearfusion.csh.rit.edu (129.21.50.86)
+Host is up (0.0013s latency).
+Not shown: 993 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+25/tcp  open  smtp
+37/tcp  open  time
+53/tcp  open  domain
+80/tcp  open  http
+113/tcp open  auth
+587/tcp open  submission
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=37273%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10A%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=1
+OS:06%GCD=1%ISR=10B%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=104%GCD=1%ISR=10B%TI=Z%CI=R
+OS:D%II=I%TS=A)SEQ(SP=105%GCD=1%ISR=10B%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=101%GCD
+OS:=1%ISR=10B%TI=Z%CI=RD%II=I%TS=A)OPS(O1=M564ST11NW6%O2=M564ST11NW6%O3=M56
+OS:4NNT11NW6%O4=M564ST11NW6%O5=M564ST11NW6%O6=M564ST11)WIN(W1=16A0%W2=16A0%
+OS:W3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW6%CC
+OS:=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=2E%W=80%S=A%A
+OS:=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=38%W=80%S=A%A=S+%F=AR%O=WAN
+OS:M109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=34%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%
+OS:Q=)T2(R=Y%DF=Y%T=33%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y
+OS:%T=26%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2F%W=100%S=
+OS:A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=28%W=100%S=A%A=S+%F=AR%O
+OS:=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2C%W=100%S=A%A=S+%F=AR%O=WANM109T10S%
+OS:RD=0%Q=)T3(R=Y%DF=N%T=35%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=
+OS:Y%DF=N%T=3B%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=37%W
+OS:=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=32%W=400%S=A%A=S+
+OS:%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=26%W=400%S=A%A=S+%F=AR%O=WANM1
+OS:09T10S%RD=0%Q=)T4(R=Y%DF=Y%T=38%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T4(R=Y%DF=Y%T=2B%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y
+OS:%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=35%W=8000%S=A%A=S+%F=AR
+OS:%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=34%W=8000%S=A%A=S+%F=AR%O=WANM109T1
+OS:0S%RD=0%Q=)T6(R=Y%DF=Y%T=30%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T
+OS:6(R=Y%DF=Y%T=26%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T
+OS:=2C%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2B%W=FFFF%S
+OS:=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=38%W=FFFF%S=A%A=S+%F=AR
+OS:%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=26%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T1
+OS:0S%RD=0%Q=)T7(R=Y%DF=N%T=2D%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T
+OS:7(R=Y%DF=N%T=28%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T
+OS:=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=
+OS:S)
+
+Network Distance: 1 hop
+
+Nmap scan report for idontknow.csh.rit.edu (129.21.50.90)
+Host is up (0.0012s latency).
+Not shown: 990 filtered ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+5357/tcp  open  unknown
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49156/tcp open  unknown
+49163/tcp open  unknown
+49165/tcp open  unknown
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING) : Microsoft Windows 2008 (86%)
+Aggressive OS guesses: Microsoft Windows Server 2008 SP1 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for ponyexpress.csh.rit.edu (129.21.50.93)
+Host is up (0.0018s latency).
+Not shown: 995 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+25/tcp  open  smtp
+80/tcp  open  http
+110/tcp open  pop3
+995/tcp open  pop3s
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=43866%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10C%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=1
+OS:04%GCD=1%ISR=10D%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=107%GCD=1%ISR=10A%TI=Z%CI=R
+OS:D%II=I%TS=8)SEQ(SP=101%GCD=1%ISR=107%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=103%GCD
+OS:=1%ISR=109%TI=Z%CI=RD%II=I%TS=8)OPS(O1=M564ST11NW6%O2=M564ST11NW6%O3=M56
+OS:4NNT11NW6%O4=M564ST11NW6%O5=M564ST11NW6%O6=M564ST11)WIN(W1=16A0%W2=16A0%
+OS:W3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW6%CC
+OS:=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=38%W=80%S=A%A
+OS:=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=33%W=80%S=A%A=S+%F=AR%O=WAN
+OS:M109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=29%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%
+OS:Q=)T2(R=Y%DF=Y%T=3C%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y
+OS:%T=35%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=3C%W=100%S=
+OS:A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=36%W=100%S=A%A=S+%F=AR%O
+OS:=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=3A%W=100%S=A%A=S+%F=AR%O=WANM109T10S%
+OS:RD=0%Q=)T3(R=Y%DF=N%T=28%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=
+OS:Y%DF=Y%T=36%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2A%W
+OS:=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=38%W=400%S=A%A=S+
+OS:%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=28%W=400%S=A%A=S+%F=AR%O=WANM1
+OS:09T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y
+OS:%T=39%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=34%W=8000
+OS:%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=26%W=8000%S=A%A=S+%F=
+OS:AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=33%W=8000%S=A%A=S+%F=AR%O=WANM109
+OS:T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2A%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=
+OS:)T7(R=Y%DF=N%T=36%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N
+OS:%T=2D%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=29%W=FFFF
+OS:%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2E%W=FFFF%S=A%A=S+%F=
+OS:AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=38%W=FFFF%S=A%A=S+%F=AR%O=WFNM109
+OS:T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%R
+OS:UD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for zemon1.csh.rit.edu (129.21.50.94)
+Host is up (0.0014s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+25/tcp  open  smtp
+80/tcp  open  http
+111/tcp open  rpcbind
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=35098%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=FA%GCD=1%ISR=109%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=10
+OS:8%GCD=2%ISR=10A%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=106%GCD=1%ISR=10D%TI=Z%CI=RD
+OS:%II=I%TS=8)SEQ(SP=101%GCD=1%ISR=10A%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=104%GCD=
+OS:1%ISR=104%TI=Z%CI=RD%II=I%TS=8)OPS(O1=M564ST11NW6%O2=M564ST11NW6%O3=M564
+OS:NNT11NW6%O4=M564ST11NW6%O5=M564ST11NW6%O6=M564ST11)WIN(W1=16A0%W2=16A0%W
+OS:3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW6%CC=
+OS:N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=36%W=80%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=3C%W=80%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=3A%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T2(R=Y%DF=Y%T=3B%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%
+OS:T=38%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=37%W=100%S=A
+OS:%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2A%W=100%S=A%A=S+%F=AR%O=
+OS:WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=29%W=100%S=A%A=S+%F=AR%O=WANM109T10S%R
+OS:D=0%Q=)T3(R=Y%DF=N%T=2E%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y
+OS:%DF=N%T=3C%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2F%W=
+OS:400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=38%W=400%S=A%A=S+%
+OS:F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2C%W=400%S=A%A=S+%F=AR%O=WANM10
+OS:9T10S%RD=0%Q=)T4(R=Y%DF=Y%T=28%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=
+OS:)T4(R=Y%DF=Y%T=35%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%
+OS:T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=35%W=8000%S=A%A=S+%F=AR%
+OS:O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=28%W=8000%S=A%A=S+%F=AR%O=WANM109T10
+OS:S%RD=0%Q=)T6(R=Y%DF=Y%T=2C%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6
+OS:(R=Y%DF=Y%T=33%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=
+OS:37%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=35%W=FFFF%S=
+OS:A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=28%W=FFFF%S=A%A=S+%F=AR%
+OS:O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2A%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10
+OS:S%RD=0%Q=)T7(R=Y%DF=N%T=26%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1
+OS:(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI
+OS:=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for lubavitch.csh.rit.edu (129.21.50.95)
+Host is up (0.0012s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+2049/tcp open  nfs
+8000/tcp open  http-alt
+8001/tcp open  unknown
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=31675%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=FD%GCD=1%ISR=10D%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=FE
+OS:%GCD=1%ISR=10F%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=109%GCD=2%ISR=10B%TI=Z%CI=RD%
+OS:II=I%TS=8)SEQ(SP=101%GCD=1%ISR=10A%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=FD%GCD=1%
+OS:ISR=108%TI=Z%CI=RD%II=I%TS=8)OPS(O1=M564ST11NW6%O2=M564ST11NW6%O3=M564NN
+OS:T11NW6%O4=M564ST11NW6%O5=M564ST11NW6%O6=M564ST11)WIN(W1=16A0%W2=16A0%W3=
+OS:16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW6%CC=Y%
+OS:Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=2D%W=80%S=A%A=S+
+OS:%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=32%W=80%S=A%A=S+%F=AR%O=WANM10
+OS:9T10S%RD=0%Q=)T2(R=Y%DF=Y%T=27%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)
+OS:T2(R=Y%DF=Y%T=34%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=
+OS:33%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=26%W=100%S=A%A
+OS:=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2B%W=100%S=A%A=S+%F=AR%O=WA
+OS:NM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2D%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=
+OS:0%Q=)T3(R=Y%DF=N%T=29%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%D
+OS:F=N%T=36%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2D%W=40
+OS:0%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=37%W=400%S=A%A=S+%F=
+OS:AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=36%W=400%S=A%A=S+%F=AR%O=WANM109T
+OS:10S%RD=0%Q=)T4(R=Y%DF=Y%T=34%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T
+OS:4(R=Y%DF=Y%T=3B%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=
+OS:40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=2E%W=8000%S=A%A=S+%F=AR%O=
+OS:WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=30%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%
+OS:RD=0%Q=)T6(R=Y%DF=Y%T=39%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R
+OS:=Y%DF=Y%T=28%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=3B
+OS:%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=3B%W=FFFF%S=A%
+OS:A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=31%W=FFFF%S=A%A=S+%F=AR%O=
+OS:WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=38%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%
+OS:RD=0%Q=)T7(R=Y%DF=N%T=33%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R
+OS:=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N
+OS:%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for waffles.csh.rit.edu (129.21.50.102)
+Host is up (0.0012s latency).
+Not shown: 995 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+25/tcp  open  smtp
+80/tcp  open  http
+111/tcp open  rpcbind
+389/tcp open  ldap
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=38633%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10A%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=1
+OS:07%GCD=1%ISR=10C%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=106%GCD=1%ISR=10D%TI=Z%CI=R
+OS:D%II=I%TS=8)SEQ(SP=106%GCD=2%ISR=106%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=105%GCD
+OS:=1%ISR=105%TI=Z%CI=RD%II=I%TS=8)OPS(O1=M564ST11NW5%O2=M564ST11NW5%O3=M56
+OS:4NNT11NW5%O4=M564ST11NW5%O5=M564ST11NW5%O6=M564ST11)WIN(W1=16A0%W2=16A0%
+OS:W3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW5%CC
+OS:=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=36%W=80%S=A%A
+OS:=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2F%W=80%S=A%A=S+%F=AR%O=WAN
+OS:M109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2E%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%
+OS:Q=)T2(R=Y%DF=Y%T=26%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N
+OS:%T=33%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2F%W=100%S
+OS:=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=34%W=100%S=A%A=S+%F=AR%
+OS:O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=38%W=100%S=A%A=S+%F=AR%O=WANM109T10S
+OS:%RD=0%Q=)T4(R=Y%DF=Y%T=3C%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R
+OS:=Y%DF=Y%T=27%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2C%
+OS:W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=37%W=400%S=A%A=S
+OS:+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%
+OS:Q=)T6(R=Y%DF=Y%T=3B%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF
+OS:=Y%T=38%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2E%W=80
+OS:00%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=3A%W=8000%S=A%A=S+%
+OS:F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=30%W=8000%S=A%A=S+%F=AR%O=WANM1
+OS:09T10S%RD=0%Q=)T7(R=Y%DF=N%T=28%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%
+OS:Q=)T7(R=Y%DF=N%T=32%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF
+OS:=N%T=33%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2F%W=FF
+OS:FF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=3B%W=FFFF%S=A%A=S+%
+OS:F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RI
+OS:PCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for caprica.csh.rit.edu (129.21.50.103)
+Host is up (0.0012s latency).
+Not shown: 991 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+53/tcp   open  domain
+80/tcp   open  http
+88/tcp   open  kerberos-sec
+111/tcp  open  rpcbind
+443/tcp  open  https
+464/tcp  open  kpasswd5
+749/tcp  open  kerberos-adm
+4242/tcp open  unknown
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=33574%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=108%GCD=1%ISR=10B%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=1
+OS:05%GCD=1%ISR=10B%TI=Z%CI=RI%II=I%TS=A)SEQ(SP=109%GCD=1%ISR=109%TI=Z%CI=R
+OS:D%II=I%TS=A)SEQ(SP=104%GCD=1%ISR=10C%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=FE%GCD=
+OS:1%ISR=10F%TI=Z%CI=RD%II=I%TS=A)OPS(O1=M564ST11NW6%O2=M564ST11NW6%O3=M564
+OS:NNT11NW6%O4=M564ST11NW6%O5=M564ST11NW6%O6=M564ST11)WIN(W1=16A0%W2=16A0%W
+OS:3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW6%CC=
+OS:N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=28%W=80%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2E%W=80%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=31%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T2(R=Y%DF=Y%T=26%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%
+OS:T=3B%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2A%W=100%S=
+OS:A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=28%W=100%S=A%A=S+%F=AR%O
+OS:=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2F%W=100%S=A%A=S+%F=AR%O=WANM109T10S%
+OS:RD=0%Q=)T3(R=Y%DF=N%T=2C%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=
+OS:Y%DF=Y%T=2A%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=38%W
+OS:=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2F%W=400%S=A%A=S+
+OS:%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=35%W=400%S=A%A=S+%F=AR%O=WANM1
+OS:09T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y
+OS:%T=27%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=31%W=8000
+OS:%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=30%W=8000%S=A%A=S+%F=
+OS:AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=28%W=8000%S=A%A=S+%F=AR%O=WANM109
+OS:T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2F%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=
+OS:)T7(R=Y%DF=N%T=38%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N
+OS:%T=3B%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=26%W=FFFF
+OS:%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=39%W=FFFF%S=A%A=S+%F=
+OS:AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=33%W=FFFF%S=A%A=S+%F=AR%O=WFNM109
+OS:T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%R
+OS:UD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for millstone.csh.rit.edu (129.21.50.107)
+Host is up (0.0011s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=31096%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=10D%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=1
+OS:02%GCD=1%ISR=105%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=10A%GCD=1%ISR=10D%TI=Z%CI=R
+OS:D%II=I%TS=A)SEQ(SP=100%GCD=1%ISR=109%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=107%GCD
+OS:=1%ISR=109%TI=Z%CI=RD%II=I%TS=A)OPS(O1=M564ST11NW7%O2=M564ST11NW7%O3=M56
+OS:4NNT11NW7%O4=M564ST11NW7%O5=M564ST11NW7%O6=M564ST11)WIN(W1=16A0%W2=16A0%
+OS:W3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW7%CC
+OS:=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=31%W=80%S=A%A
+OS:=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=34%W=80%S=A%A=S+%F=AR%O=WAN
+OS:M109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=39%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%
+OS:Q=)T2(R=Y%DF=Y%T=33%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N
+OS:%T=2D%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=29%W=100%S
+OS:=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=37%W=100%S=A%A=S+%F=AR%
+OS:O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=26%W=100%S=A%A=S+%F=AR%O=WANM109T10S
+OS:%RD=0%Q=)T3(R=Y%DF=N%T=33%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R
+OS:=Y%DF=Y%T=38%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=39%
+OS:W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2F%W=400%S=A%A=S
+OS:+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=33%W=400%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=34%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%
+OS:Q=)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=30%W=8000
+OS:%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=26%W=8000%S=A%A=S+%F=
+OS:AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2C%W=8000%S=A%A=S+%F=AR%O=WANM109
+OS:T10S%RD=0%Q=)T6(R=Y%DF=Y%T=35%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=
+OS:)T6(R=Y%DF=Y%T=2B%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N
+OS:%T=3C%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=34%W=FFFF
+OS:%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=33%W=FFFF%S=A%A=S+%F=
+OS:AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=29%W=FFFF%S=A%A=S+%F=AR%O=WFNM109
+OS:T10S%RD=0%Q=)T7(R=Y%DF=N%T=2E%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=
+OS:)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%
+OS:DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for fusion.csh.rit.edu (129.21.50.110)
+Host is up (0.0012s latency).
+Not shown: 992 closed ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+37/tcp    open  time
+53/tcp    open  domain
+80/tcp    open  http
+113/tcp   open  auth
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+10001/tcp open  unknown
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=30686%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=FA%GCD=1%ISR=104%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=10
+OS:8%GCD=1%ISR=10B%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=105%GCD=2%ISR=108%TI=Z%CI=RD
+OS:%II=I%TS=A)SEQ(SP=102%GCD=1%ISR=109%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=106%GCD=
+OS:1%ISR=10C%TI=Z%CI=RD%II=I%TS=A)OPS(O1=M564ST11NW7%O2=M564ST11NW7%O3=M564
+OS:NNT11NW7%O4=M564ST11NW7%O5=M564ST11NW7%O6=M564ST11)WIN(W1=16A0%W2=16A0%W
+OS:3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW7%CC=
+OS:Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=2B%W=80%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2F%W=80%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=3C%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T2(R=Y%DF=Y%T=30%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%
+OS:T=39%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=37%W=100%S=
+OS:A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=3C%W=100%S=A%A=S+%F=AR%O
+OS:=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2A%W=100%S=A%A=S+%F=AR%O=WANM109T10S%
+OS:RD=0%Q=)T4(R=Y%DF=Y%T=38%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=
+OS:Y%DF=Y%T=35%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=30%W
+OS:=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=28%W=400%S=A%A=S+
+OS:%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q
+OS:=)T6(R=Y%DF=Y%T=3A%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=
+OS:Y%T=2E%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=27%W=800
+OS:0%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=35%W=8000%S=A%A=S+%F
+OS:=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=30%W=8000%S=A%A=S+%F=AR%O=WANM10
+OS:9T10S%RD=0%Q=)T7(R=Y%DF=N%T=2E%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q
+OS:=)T7(R=Y%DF=N%T=26%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=
+OS:N%T=37%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=3C%W=FFF
+OS:F%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2D%W=FFFF%S=A%A=S+%F
+OS:=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIP
+OS:CK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for hugeballs.csh.rit.edu (129.21.50.113)
+Host is up (0.0029s latency).
+All 1000 scanned ports on hugeballs.csh.rit.edu (129.21.50.113) are closed
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|VoIP phone|switch|WAP|print server|webcam
+Running (JUST GUESSING) : IBM i5/OS V5 (95%), IBM z/OS (94%), Cisco embedded (92%), Cisco IOS 12.X (90%), FreeBSD 7.X|6.X (89%), Microsoft Windows NT (89%), Kyocera embedded (88%), D-Link embedded (88%)
+Aggressive OS guesses: IBM i5/OS V5R3M0 (95%), IBM z/OS v1r8 (94%), Cisco IP Phone 7912G (92%), Cisco 3750 switch (IOS 12.2) (90%), Cisco Aironet 1231G WAP (IOS 12.3) (90%), FreeBSD 7.0-RELEASE (89%), FreeBSD 7.0-RELEASE-p1 (89%), FreeBSD 7.2-RELEASE (89%), Microsoft Windows NT 4.0 SP6 (89%), FreeBSD 6.2-RELEASE-p2 (pf with scrub enabled) (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for teroknor.csh.rit.edu (129.21.50.119)
+Host is up (0.0022s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=80%CT=1%CU=33230%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=10B%TI=RD%CI=RD%II=RI%TS=U)SEQ(SP
+OS:=106%GCD=1%ISR=10D%TI=RD%CI=RD%II=RI%TS=U)SEQ(SP=FE%GCD=5%ISR=107%TI=RD%
+OS:CI=RD%II=RI%TS=U)SEQ(SP=FE%GCD=1%ISR=10A%TI=RD%CI=RD%II=RI%TS=U)SEQ(SP=1
+OS:08%GCD=1%ISR=10B%TI=RD%CI=RD%II=RI%TS=U)OPS(O1=%O2=%O3=%O4=%O5=%O6=)WIN(
+OS:W1=1000%W2=1000%W3=1000%W4=1000%W5=1000%W6=1000)ECN(R=Y%DF=N%T=40%W=1000
+OS:%O=%CC=N%Q=)T1(R=Y%DF=N%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=29%W=80
+OS:%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=30%W=80%S=A%A=S+%F=AR
+OS:%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2A%W=80%S=A%A=S+%F=AR%O=WANM109T10S
+OS:%RD=0%Q=)T2(R=Y%DF=Y%T=33%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=
+OS:Y%DF=Y%T=36%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=27%W=
+OS:100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2A%W=100%S=A%A=S+%
+OS:F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=29%W=100%S=A%A=S+%F=AR%O=WANM10
+OS:9T10S%RD=0%Q=)T3(R=Y%DF=N%T=2F%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=
+OS:)T3(R=Y%DF=N%T=32%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%
+OS:T=31%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2F%W=400%S=
+OS:A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=34%W=400%S=A%A=S+%F=AR%O
+OS:=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=3C%W=400%S=A%A=S+%F=AR%O=WANM109T10S%
+OS:RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=2E%W
+OS:=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=34%W=8000%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2C%W=8000%S=A%A=S+%F=AR%O=WA
+OS:NM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=32%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD
+OS:=0%Q=)T7(R=Y%DF=N%T=35%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y
+OS:%DF=N%T=2B%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=3A%W
+OS:=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=37%W=FFFF%S=A%A=
+OS:S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%
+OS:RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for randomserver.csh.rit.edu (129.21.50.126)
+Host is up (0.0012s latency).
+Not shown: 994 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+37/tcp  open  time
+80/tcp  open  http
+113/tcp open  auth
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=35823%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=108%GCD=1%ISR=10D%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=1
+OS:06%GCD=1%ISR=108%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=103%GCD=1%ISR=10F%TI=Z%CI=R
+OS:D%II=I%TS=A)SEQ(SP=100%GCD=1%ISR=101%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=109%GCD
+OS:=1%ISR=10A%TI=Z%CI=RD%II=I%TS=A)OPS(O1=M564ST11NW7%O2=M564ST11NW7%O3=M56
+OS:4NNT11NW7%O4=M564ST11NW7%O5=M564ST11NW7%O6=M564ST11)WIN(W1=16A0%W2=16A0%
+OS:W3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW7%CC
+OS:=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=34%W=80%S=A%A
+OS:=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=29%W=80%S=A%A=S+%F=AR%O=WAN
+OS:M109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=30%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%
+OS:Q=)T2(R=Y%DF=Y%T=2B%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y
+OS:%T=28%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2F%W=100%S=
+OS:A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=3B%W=100%S=A%A=S+%F=AR%O
+OS:=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=34%W=100%S=A%A=S+%F=AR%O=WANM109T10S%
+OS:RD=0%Q=)T3(R=Y%DF=N%T=2B%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=
+OS:Y%DF=N%T=26%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2E%W
+OS:=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=28%W=400%S=A%A=S+
+OS:%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=30%W=400%S=A%A=S+%F=AR%O=WANM1
+OS:09T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2F%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T4(R=Y%DF=Y%T=3C%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y
+OS:%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=2D%W=8000%S=A%A=S+%F=AR
+OS:%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=28%W=8000%S=A%A=S+%F=AR%O=WANM109T1
+OS:0S%RD=0%Q=)T6(R=Y%DF=Y%T=2A%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T
+OS:6(R=Y%DF=Y%T=36%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T
+OS:=34%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2B%W=FFFF%S
+OS:=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=38%W=FFFF%S=A%A=S+%F=AR
+OS:%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2A%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T1
+OS:0S%RD=0%Q=)T7(R=Y%DF=N%T=3C%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T
+OS:7(R=Y%DF=N%T=3A%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T
+OS:=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=
+OS:S)
+
+Network Distance: 1 hop
+
+Nmap scan report for snoopy.csh.rit.edu (129.21.50.128)
+Host is up (0.0012s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+113/tcp open  auth
+443/tcp open  https
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=80%CT=1%CU=39347%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=103%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=1
+OS:03%GCD=1%ISR=10B%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=106%GCD=1%ISR=108%TI=Z%CI=R
+OS:D%II=I%TS=8)SEQ(SP=FE%GCD=1%ISR=107%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=104%GCD=
+OS:1%ISR=109%TI=Z%CI=RD%II=I%TS=8)OPS(O1=M564ST11NW6%O2=M564ST11NW6%O3=M564
+OS:NNT11NW6%O4=M564ST11NW6%O5=M564ST11NW6%O6=M564ST11)WIN(W1=16A0%W2=16A0%W
+OS:3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW6%CC=
+OS:Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=3B%W=80%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=30%W=80%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2F%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T2(R=Y%DF=Y%T=28%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%
+OS:T=31%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2A%W=100%S=A
+OS:%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2E%W=100%S=A%A=S+%F=AR%O=
+OS:WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=39%W=100%S=A%A=S+%F=AR%O=WANM109T10S%R
+OS:D=0%Q=)T3(R=Y%DF=N%T=29%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y
+OS:%DF=N%T=3C%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=31%W=
+OS:400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=35%W=400%S=A%A=S+%
+OS:F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=26%W=400%S=A%A=S+%F=AR%O=WANM10
+OS:9T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2C%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=
+OS:)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=37%W=8000%S
+OS:=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2F%W=8000%S=A%A=S+%F=AR
+OS:%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=39%W=8000%S=A%A=S+%F=AR%O=WANM109T1
+OS:0S%RD=0%Q=)T6(R=Y%DF=Y%T=3A%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T
+OS:7(R=Y%DF=N%T=35%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T
+OS:=39%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2F%W=FFFF%S
+OS:=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2A%W=FFFF%S=A%A=S+%F=AR
+OS:%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=37%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T1
+OS:0S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD
+OS:=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for ghettoblaster.csh.rit.edu (129.21.50.141)
+Host is up (0.0012s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=33060%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=10E%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=1
+OS:05%GCD=1%ISR=105%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=FD%GCD=1%ISR=10A%TI=Z%CI=RD
+OS:%II=I%TS=8)SEQ(SP=106%GCD=1%ISR=109%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=104%GCD=
+OS:1%ISR=10C%TI=Z%CI=RD%II=I%TS=8)OPS(O1=M564ST11NW6%O2=M564ST11NW6%O3=M564
+OS:NNT11NW6%O4=M564ST11NW6%O5=M564ST11NW6%O6=M564ST11)WIN(W1=16A0%W2=16A0%W
+OS:3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW6%CC=
+OS:Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=3B%W=80%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2E%W=80%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=35%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T2(R=Y%DF=Y%T=39%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%
+OS:T=30%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=37%W=100%S=A
+OS:%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2E%W=100%S=A%A=S+%F=AR%O=
+OS:WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=28%W=100%S=A%A=S+%F=AR%O=WANM109T10S%R
+OS:D=0%Q=)T3(R=Y%DF=N%T=33%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y
+OS:%DF=N%T=31%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=30%W=
+OS:400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=38%W=400%S=A%A=S+%
+OS:F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2B%W=400%S=A%A=S+%F=AR%O=WANM10
+OS:9T10S%RD=0%Q=)T4(R=Y%DF=Y%T=29%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=
+OS:)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=2F%W=8000%S
+OS:=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=26%W=8000%S=A%A=S+%F=AR
+OS:%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=30%W=8000%S=A%A=S+%F=AR%O=WANM109T1
+OS:0S%RD=0%Q=)T6(R=Y%DF=Y%T=39%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T
+OS:6(R=Y%DF=Y%T=3A%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T
+OS:=3A%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=33%W=FFFF%S
+OS:=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=37%W=FFFF%S=A%A=S+%F=AR
+OS:%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=32%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T1
+OS:0S%RD=0%Q=)T7(R=Y%DF=N%T=28%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U
+OS:1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DF
+OS:I=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for puppies.csh.rit.edu (129.21.50.154)
+Host is up (0.0012s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+111/tcp  open  rpcbind
+2049/tcp open  nfs
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=40068%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=10D%CI=RD%II=I%TS=21)SEQ(SP=FE%GC
+OS:D=1%ISR=10E%TI=I%CI=RD%II=I%SS=S%TS=21)SEQ(SP=104%GCD=1%ISR=10A%TI=I%CI=
+OS:RD%II=I%SS=S%TS=22)SEQ(SP=104%GCD=1%ISR=10D%TI=I%CI=RD%II=I%SS=S%TS=21)S
+OS:EQ(SP=102%GCD=1%ISR=10C%TI=I%CI=RI%II=I%SS=S%TS=21)OPS(O1=M564NW3ST11%O2
+OS:=M564NW3ST11%O3=M280NW3NNT11%O4=M564NW3ST11%O5=M218NW3ST11%O6=M109ST11)W
+OS:IN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=F
+OS:FFF%O=M564NW3SLL%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%D
+OS:F=Y%T=2F%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=29%W=80%
+OS:S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=31%W=80%S=A%A=S+%F=AR%
+OS:O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=35%W=80%S=A%A=S+%F=AR%O=WANM109T10S%
+OS:RD=0%Q=)T2(R=Y%DF=Y%T=30%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y
+OS:%DF=N%T=29%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=33%W=
+OS:100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=32%W=100%S=A%A=S+%
+OS:F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=38%W=100%S=A%A=S+%F=AR%O=WANM10
+OS:9T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2F%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=
+OS:)T4(R=Y%DF=Y%T=3A%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%
+OS:T=2B%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=28%W=400%S=
+OS:A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=29%W=400%S=A%A=S+%F=AR%O
+OS:=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=
+OS:Y%DF=Y%T=2B%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=33%
+OS:W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=3B%W=8000%S=A%A
+OS:=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=29%W=8000%S=A%A=S+%F=AR%O=W
+OS:ANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=39%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%R
+OS:D=0%Q=)T7(R=Y%DF=N%T=32%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=
+OS:Y%DF=N%T=2B%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=27%
+OS:W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=31%W=FFFF%S=A%A
+OS:=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=36%W=FFFF%S=A%A=S+%F=AR%O=W
+OS:FNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUC
+OS:K=G%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for kobol.csh.rit.edu (129.21.50.156)
+Host is up (0.0011s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+902/tcp  open  iss-realsecure
+5989/tcp open  unknown
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=80%CT=1%CU=42330%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=109%TI=Z%CI=RD%II=RI%TS=7)SEQ(SP=
+OS:103%GCD=1%ISR=105%TI=Z%CI=RD%II=RI%TS=7)SEQ(SP=FC%GCD=1%ISR=106%TI=Z%CI=
+OS:RD%II=RI%TS=7)SEQ(SP=106%GCD=1%ISR=10B%TI=Z%CI=RD%II=RI%TS=7)SEQ(SP=105%
+OS:GCD=1%ISR=109%TI=Z%CI=RD%II=RI%TS=7)OPS(O1=M564NW1NNT11%O2=M564NW1NNT11%
+OS:O3=M564NW1NNT11%O4=M564NW1NNT11%O5=M564NW1NNT11%O6=M564NNT11)WIN(W1=FFFF
+OS:%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M564
+OS:NW1%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=35%W=80
+OS:%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=30%W=80%S=A%A=S+%F=AR
+OS:%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=33%W=80%S=A%A=S+%F=AR%O=WANM109T10S
+OS:%RD=0%Q=)T2(R=Y%DF=Y%T=2C%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=
+OS:Y%DF=N%T=2E%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=26%W
+OS:=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=36%W=100%S=A%A=S+
+OS:%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2F%W=100%S=A%A=S+%F=AR%O=WANM1
+OS:09T10S%RD=0%Q=)T3(R=Y%DF=N%T=2B%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T4(R=Y%DF=Y%T=29%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y
+OS:%T=2B%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=34%W=400%S
+OS:=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=N%T=40%W=0%S=O%A=S+%F=AR%O=
+OS:%RD=0%Q=)T6(R=Y%DF=Y%T=38%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(
+OS:R=Y%DF=Y%T=2A%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2
+OS:8%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2E%W=8000%S=A
+OS:%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=33%W=FFFF%S=A%A=S+%F=AR%O
+OS:=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=29%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S
+OS:%RD=0%Q=)T7(R=Y%DF=N%T=26%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(
+OS:R=Y%DF=N%T=32%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2
+OS:C%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=
+OS:0%RIPL=G%RID=G%RIPCK=G%RUCK=0%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for miranda.csh.rit.edu (129.21.50.165)
+Host is up (0.0013s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=35846%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=101%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=1
+OS:07%GCD=1%ISR=10C%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=105%GCD=1%ISR=10E%TI=Z%CI=R
+OS:D%II=I%TS=8)SEQ(SP=102%GCD=1%ISR=10B%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=FE%GCD=
+OS:1%ISR=108%TI=Z%CI=RD%II=I%TS=8)OPS(O1=M564ST11NW5%O2=M564ST11NW5%O3=M564
+OS:NNT11NW5%O4=M564ST11NW5%O5=M564ST11NW5%O6=M564ST11)WIN(W1=16A0%W2=16A0%W
+OS:3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW5%CC=
+OS:Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=27%W=80%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=39%W=80%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2D%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T2(R=Y%DF=Y%T=2F%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%
+OS:T=33%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2E%W=100%S=A
+OS:%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=30%W=100%S=A%A=S+%F=AR%O=
+OS:WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=26%W=100%S=A%A=S+%F=AR%O=WANM109T10S%R
+OS:D=0%Q=)T3(R=Y%DF=N%T=32%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y
+OS:%DF=N%T=37%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2E%W=
+OS:400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2D%W=400%S=A%A=S+%
+OS:F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=35%W=400%S=A%A=S+%F=AR%O=WANM10
+OS:9T10S%RD=0%Q=)T4(R=Y%DF=Y%T=3B%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=
+OS:)T4(R=Y%DF=Y%T=28%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%
+OS:T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=3C%W=8000%S=A%A=S+%F=AR%
+OS:O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=3A%W=8000%S=A%A=S+%F=AR%O=WANM109T10
+OS:S%RD=0%Q=)T6(R=Y%DF=Y%T=39%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6
+OS:(R=Y%DF=Y%T=30%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=
+OS:32%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=37%W=FFFF%S=
+OS:A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=33%W=FFFF%S=A%A=S+%F=AR%
+OS:O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=26%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10
+OS:S%RD=0%Q=)T7(R=Y%DF=N%T=29%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7
+OS:(R=Y%DF=N%T=2D%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=
+OS:40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S
+OS:)
+
+Network Distance: 1 hop
+
+Nmap scan report for buttons.csh.rit.edu (129.21.50.193)
+Host is up (0.0011s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=31711%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=108%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=1
+OS:02%GCD=1%ISR=104%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=107%GCD=1%ISR=10A%TI=Z%CI=R
+OS:D%II=I%TS=A)SEQ(SP=108%GCD=1%ISR=10D%TI=Z%CI=RI%II=I%TS=A)SEQ(SP=106%GCD
+OS:=1%ISR=10D%TI=Z%CI=RD%II=I%TS=A)OPS(O1=M564ST11NW7%O2=M564ST11NW7%O3=M56
+OS:4NNT11NW7%O4=M564ST11NW7%O5=M564ST11NW7%O6=M564ST11)WIN(W1=10F8%W2=10F8%
+OS:W3=10F8%W4=10F8%W5=10F8%W6=10F8)ECN(R=Y%DF=Y%T=40%W=111C%O=M564NNSNW7%CC
+OS:=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=2E%W=80%S=A%A
+OS:=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=39%W=80%S=A%A=S+%F=AR%O=WAN
+OS:M109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=36%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%
+OS:Q=)T2(R=Y%DF=Y%T=2D%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y
+OS:%T=2B%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2A%W=100%S=
+OS:A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=3A%W=100%S=A%A=S+%F=AR%O
+OS:=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=29%W=100%S=A%A=S+%F=AR%O=WANM109T10S%
+OS:RD=0%Q=)T3(R=Y%DF=N%T=38%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=
+OS:Y%DF=Y%T=2F%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2E%W
+OS:=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=31%W=400%S=A%A=S+
+OS:%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=28%W=400%S=A%A=S+%F=AR%O=WANM1
+OS:09T10S%RD=0%Q=)T4(R=Y%DF=Y%T=30%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=3A%W=8000%
+OS:S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=26%W=8000%S=A%A=S+%F=A
+OS:R%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=36%W=8000%S=A%A=S+%F=AR%O=WANM109T
+OS:10S%RD=0%Q=)T6(R=Y%DF=Y%T=3C%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)
+OS:T7(R=Y%DF=N%T=37%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%
+OS:T=2F%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2C%W=FFFF%
+OS:S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=28%W=FFFF%S=A%A=S+%F=A
+OS:R%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK
+OS:=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for touchy.csh.rit.edu (129.21.50.195)
+Host is up (0.0012s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+111/tcp open  rpcbind
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=33997%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10B%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=1
+OS:05%GCD=1%ISR=10B%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=102%GCD=1%ISR=109%TI=Z%CI=R
+OS:D%II=I%TS=8)SEQ(SP=106%GCD=1%ISR=10C%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=106%GCD
+OS:=1%ISR=107%TI=Z%CI=RD%II=I%TS=8)OPS(O1=M564ST11NW5%O2=M564ST11NW5%O3=M56
+OS:4NNT11NW5%O4=M564ST11NW5%O5=M564ST11NW5%O6=M564ST11)WIN(W1=16A0%W2=16A0%
+OS:W3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW5%CC
+OS:=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=28%W=80%S=A%A
+OS:=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=39%W=80%S=A%A=S+%F=AR%O=WAN
+OS:M109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=36%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%
+OS:Q=)T3(R=Y%DF=N%T=2D%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=
+OS:N%T=39%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=3A%W=100%
+OS:S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=35%W=100%S=A%A=S+%F=AR
+OS:%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2D%W=400%S=A%A=S+%F=AR%O=WANM109T10
+OS:S%RD=0%Q=)T4(R=Y%DF=Y%T=34%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(
+OS:R=Y%DF=Y%T=2F%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=37
+OS:%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=39%W=400%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0
+OS:%Q=)T6(R=Y%DF=Y%T=26%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%D
+OS:F=Y%T=30%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2A%W=8
+OS:000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=39%W=8000%S=A%A=S+
+OS:%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=33%W=8000%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T7(R=Y%DF=N%T=3B%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0
+OS:%Q=)T7(R=Y%DF=N%T=37%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%D
+OS:F=N%T=31%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=33%W=F
+OS:FFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RI
+OS:PL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for faginsteinsmonstercock.csh.rit.edu (129.21.50.204)
+Host is up (0.0013s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+88/tcp   open  kerberos-sec
+548/tcp  open  afp
+8080/tcp open  http-proxy
+No OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=34424%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=109%TI=RD%CI=RD%II=RI%TS=3)SEQ(SP
+OS:=105%GCD=1%ISR=10E%TI=RD%CI=RD%TS=3)SEQ(SP=108%GCD=1%ISR=107%TI=RD%CI=RD
+OS:%II=RI%TS=3)SEQ(SP=107%GCD=1%ISR=10B%TI=RD%CI=RD%II=RI%TS=3)OPS(O1=M564N
+OS:W3NNT11SLL%O2=M564NW3NNT11SLL%O3=M564NW3NNT11%O4=M564NW3NNT11SLL%O5=M564
+OS:NW3NNT11SLL%O6=M564NNT11SLL)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%
+OS:W6=FFFF)ECN(R=Y%DF=Y%T=40%W=FFFF%O=M564NW3SLL%CC=N%Q=)T1(R=Y%DF=Y%T=40%S
+OS:=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=35%W=80%S=A%A=S+%F=AR%O=WANM109T10S%R
+OS:D=0%Q=)T2(R=Y%DF=Y%T=29%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%
+OS:DF=Y%T=2C%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=38%W=80
+OS:%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=33%W=100%S=A%A=S+%F=A
+OS:R%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2E%W=100%S=A%A=S+%F=AR%O=WANM109T1
+OS:0S%RD=0%Q=)T3(R=Y%DF=N%T=39%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3
+OS:(R=Y%DF=N%T=32%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=3
+OS:3%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=3C%W=400%S=A%A
+OS:=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2B%W=400%S=A%A=S+%F=AR%O=WA
+OS:NM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=32%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=
+OS:0%Q=)T5(R=Y%DF=N%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=2D%W=80
+OS:00%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=33%W=8000%S=A%A=S+%
+OS:F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=38%W=8000%S=A%A=S+%F=AR%O=WANM1
+OS:09T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2B%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%
+OS:Q=)T7(R=Y%DF=N%T=37%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF
+OS:=N%T=31%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=3B%W=FF
+OS:FF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=36%W=FFFF%S=A%A=S+%
+OS:F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=33%W=FFFF%S=A%A=S+%F=AR%O=WFNM1
+OS:09T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=0%
+OS:RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for datto.csh.rit.edu (129.21.50.207)
+Host is up (0.0011s latency).
+Not shown: 993 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+111/tcp  open  rpcbind
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1234/tcp open  hotline
+2049/tcp open  nfs
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=41062%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=10E%TI=Z%CI=RD%II=I%TS=U)SEQ(SP=1
+OS:05%GCD=1%ISR=109%TI=Z%CI=RD%II=I%TS=U)SEQ(SP=109%GCD=1%ISR=10A%TI=Z%CI=R
+OS:D%II=I%TS=U)SEQ(SP=102%GCD=2%ISR=10B%TI=Z%CI=RI%II=I%TS=U)SEQ(SP=101%GCD
+OS:=1%ISR=109%TI=Z%CI=RD%II=I%TS=U)OPS(O1=M564NNSNW6%O2=M564NNSNW6%O3=M564N
+OS:W6%O4=M564NNSNW6%O5=M564NNSNW6%O6=M564NNS)WIN(W1=16D0%W2=16D0%W3=16D0%W4
+OS:=16D0%W5=16D0%W6=16D0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW6%CC=N%Q=)T1(R
+OS:=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=37%W=80%S=A%A=S+%F=AR%O
+OS:=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2E%W=80%S=A%A=S+%F=AR%O=WANM109T10S%R
+OS:D=0%Q=)T2(R=Y%DF=Y%T=38%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%
+OS:DF=Y%T=39%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=36%W=10
+OS:0%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=3A%W=100%S=A%A=S+%F=
+OS:AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=3B%W=100%S=A%A=S+%F=AR%O=WANM109T
+OS:10S%RD=0%Q=)T3(R=Y%DF=N%T=33%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T
+OS:4(R=Y%DF=Y%T=34%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=
+OS:35%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=3B%W=400%S=A%
+OS:A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=33%W=400%S=A%A=S+%F=AR%O=W
+OS:ANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%
+OS:DF=Y%T=30%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2F%W=
+OS:8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=28%W=8000%S=A%A=S
+OS:+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=27%W=8000%S=A%A=S+%F=AR%O=WAN
+OS:M109T10S%RD=0%Q=)T7(R=Y%DF=N%T=35%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=
+OS:0%Q=)T7(R=Y%DF=N%T=28%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%
+OS:DF=N%T=37%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2D%W=
+OS:FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=39%W=FFFF%S=A%A=S
+OS:+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%
+OS:RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for kewaunee.csh.rit.edu (129.21.50.214)
+Host is up (0.0013s latency).
+Not shown: 993 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1027/tcp open  IIS
+1028/tcp open  unknown
+1066/tcp open  fpo-fns
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING) : Microsoft Windows 2008 (85%)
+Aggressive OS guesses: Microsoft Windows Server 2008 SP1 (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for haunter.csh.rit.edu (129.21.50.221)
+Host is up (0.0011s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=22%CT=1%CU=31025%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10C%TI=Z%CI=RI%II=I%TS=A)SEQ(SP=1
+OS:08%GCD=1%ISR=10D%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=106%GCD=1%ISR=10C%TI=Z%CI=R
+OS:D%II=I%TS=A)SEQ(SP=108%GCD=1%ISR=108%TI=Z%CI=RD%II=I%TS=A)SEQ(SP=FF%GCD=
+OS:2%ISR=10A%TI=Z%CI=RD%II=I%TS=A)OPS(O1=M564ST11NW7%O2=M564ST11NW7%O3=M564
+OS:NNT11NW7%O4=M564ST11NW7%O5=M564ST11NW7%O6=M564ST11)WIN(W1=16A0%W2=16A0%W
+OS:3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T=40%W=16D0%O=M564NNSNW7%CC=
+OS:Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=36%W=80%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=3B%W=80%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=39%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T2(R=Y%DF=Y%T=3C%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%
+OS:T=31%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2A%W=100%S=A
+OS:%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=31%W=100%S=A%A=S+%F=AR%O=
+OS:WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=32%W=100%S=A%A=S+%F=AR%O=WANM109T10S%R
+OS:D=0%Q=)T3(R=Y%DF=N%T=37%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y
+OS:%DF=N%T=2D%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=27%W=
+OS:400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2F%W=400%S=A%A=S+%
+OS:F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2B%W=400%S=A%A=S+%F=AR%O=WANM10
+OS:9T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2E%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=
+OS:)T5(R=Y%DF=Y%T=40%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=30%W=8000%S
+OS:=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2A%W=8000%S=A%A=S+%F=AR
+OS:%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2E%W=8000%S=A%A=S+%F=AR%O=WANM109T1
+OS:0S%RD=0%Q=)T6(R=Y%DF=Y%T=2F%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T
+OS:7(R=Y%DF=N%T=2E%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T
+OS:=30%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=35%W=FFFF%S
+OS:=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=3C%W=FFFF%S=A%A=S+%F=AR
+OS:%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=28%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T1
+OS:0S%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD
+OS:=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for droid.csh.rit.edu (129.21.50.223)
+Host is up (0.0012s latency).
+Not shown: 995 closed ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+80/tcp  open  http
+111/tcp open  rpcbind
+443/tcp open  https
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=21%CT=1%CU=36096%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10B%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=1
+OS:09%GCD=1%ISR=10A%TI=Z%CI=RD%II=I%TS=8)SEQ(SP=100%GCD=1%ISR=108%TI=Z%CI=R
+OS:I%II=I%TS=8)SEQ(SP=106%GCD=1%ISR=10C%TI=Z%CI=RD%II=I%TS=8)OPS(O1=M564ST1
+OS:1NW6%O2=M564ST11NW6%O3=M564NNT11NW6%O4=M564ST11NW6%O5=M564ST11NW6%O6=M56
+OS:4ST11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=Y%T
+OS:=40%W=16D0%O=M564NNSNW6%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T
+OS:2(R=Y%DF=Y%T=2E%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=3
+OS:4%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2D%W=80%S=A%A=S
+OS:+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=26%W=80%S=A%A=S+%F=AR%O=WANM1
+OS:09T10S%RD=0%Q=)T3(R=Y%DF=N%T=2B%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q
+OS:=)T3(R=Y%DF=N%T=38%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N
+OS:%T=2A%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2D%W=400%S
+OS:=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=37%W=400%S=A%A=S+%F=AR%
+OS:O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=32%W=400%S=A%A=S+%F=AR%O=WANM109T10S
+OS:%RD=0%Q=)T4(R=Y%DF=Y%T=2F%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R
+OS:=Y%DF=Y%T=28%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=Y%T=40%
+OS:W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=29%W=8000%S=A%A=S+%F=AR%O=WAN
+OS:M109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=3A%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=
+OS:0%Q=)T6(R=Y%DF=Y%T=2B%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%
+OS:DF=Y%T=30%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=28%W=
+OS:FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=36%W=FFFF%S=A%A=S
+OS:+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=27%W=FFFF%S=A%A=S+%F=AR%O=WFN
+OS:M109T10S%RD=0%Q=)T7(R=Y%DF=N%T=3C%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=
+OS:0%Q=)T7(R=Y%DF=N%T=2A%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%
+OS:DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=
+OS:40%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.50.247
+Host is up (0.0059s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+23/tcp open  telnet
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=23%CT=1%CU=35362%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=108%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=
+OS:107%GCD=1%ISR=108%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=107%GCD=1%ISR=10D%TI=Z%CI
+OS:=RD%II=RI%TS=U)SEQ(SP=104%GCD=1%ISR=10E%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=108
+OS:%GCD=1%ISR=10E%TI=Z%CI=RD%II=RI%TS=U)OPS(O1=M22C%O2=M22C%O3=M22C%O4=M22C
+OS:%O5=M22C%O6=M22C)WIN(W1=1020%W2=1020%W3=1020%W4=1020%W5=1020%W6=1020)ECN
+OS:(R=Y%DF=N%T=FF%W=1020%O=M22C%CC=N%Q=)T1(R=Y%DF=N%T=FF%S=O%A=S+%F=AS%RD=0
+OS:%Q=)T2(R=Y%DF=Y%T=27%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=
+OS:Y%T=2A%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2F%W=80%S=
+OS:A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2D%W=80%S=A%A=S+%F=AR%O=
+OS:WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=3B%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD
+OS:=0%Q=)T3(R=Y%DF=N%T=36%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%
+OS:DF=N%T=38%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2C%W=1
+OS:00%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=29%W=100%S=A%A=S+%F
+OS:=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=26%W=100%S=A%A=S+%F=AR%O=WANM109
+OS:T10S%RD=0%Q=)T4(R=Y%DF=Y%T=38%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)
+OS:T4(R=Y%DF=Y%T=2C%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T
+OS:=27%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=29%W=400%S=A
+OS:%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=36%W=400%S=A%A=S+%F=AR%O=
+OS:WANM109T10S%RD=0%Q=)T5(R=Y%DF=N%T=FF%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y
+OS:%DF=Y%T=2A%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2F%W
+OS:=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=36%W=8000%S=A%A=
+OS:S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=34%W=8000%S=A%A=S+%F=AR%O=WA
+OS:NM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=39%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD
+OS:=0%Q=)T7(R=Y%DF=N%T=29%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y
+OS:%DF=N%T=2F%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2A%W
+OS:=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=38%W=FFFF%S=A%A=
+OS:S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=FF%IPL=38%UN=0%RIPL=G%RID=G%
+OS:RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=S%T=FF%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.50.248
+Host is up (0.0055s latency).
+Not shown: 995 closed ports
+PORT   STATE SERVICE
+7/tcp  open  echo
+9/tcp  open  discard
+13/tcp open  daytime
+19/tcp open  chargen
+23/tcp open  telnet
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=7%CT=1%CU=31512%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=i
+OS:686-pc-linux-gnu)SEQ(SP=FE%GCD=1%ISR=10A%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=10
+OS:6%GCD=1%ISR=108%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=104%GCD=1%ISR=107%TI=Z%CI=R
+OS:D%II=RI%TS=U)SEQ(SP=105%GCD=1%ISR=10A%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=107%G
+OS:CD=1%ISR=10B%TI=Z%CI=RD%II=RI%TS=U)OPS(O1=M218%O2=M218%O3=M218%O4=M218%O
+OS:5=M218%O6=M218)WIN(W1=10C0%W2=10C0%W3=10C0%W4=10C0%W5=10C0%W6=10C0)ECN(R
+OS:=Y%DF=N%T=FF%W=10C0%O=M218%CC=N%Q=)T1(R=Y%DF=N%T=FF%S=O%A=S+%F=AS%RD=0%Q
+OS:=)T2(R=Y%DF=Y%T=30%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%
+OS:T=2E%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=28%W=80%S=A%
+OS:A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=3A%W=80%S=A%A=S+%F=AR%O=WA
+OS:NM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=3C%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0
+OS:%Q=)T3(R=Y%DF=N%T=2F%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF
+OS:=N%T=28%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=2C%W=100
+OS:%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=3A%W=100%S=A%A=S+%F=A
+OS:R%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=37%W=100%S=A%A=S+%F=AR%O=WANM109T1
+OS:0S%RD=0%Q=)T4(R=Y%DF=Y%T=32%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4
+OS:(R=Y%DF=Y%T=28%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=3
+OS:5%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2D%W=400%S=A%A
+OS:=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=27%W=400%S=A%A=S+%F=AR%O=WA
+OS:NM109T10S%RD=0%Q=)T5(R=Y%DF=N%T=FF%W=0%S=O%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%D
+OS:F=Y%T=2B%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2C%W=8
+OS:000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=38%W=8000%S=A%A=S+
+OS:%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=39%W=8000%S=A%A=S+%F=AR%O=WANM
+OS:109T10S%RD=0%Q=)T7(R=Y%DF=N%T=36%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0
+OS:%Q=)T7(R=Y%DF=N%T=27%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%D
+OS:F=N%T=35%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=39%W=F
+OS:FFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=26%W=FFFF%S=A%A=S+
+OS:%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=FF%IPL=38%UN=0%RIPL=G%RID=G%RI
+OS:PCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=S%T=FF%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for 129.21.50.249
+Host is up (0.0058s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+23/tcp open  telnet
+No exact OS matches for host (If you know what OS is running on it, see http://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=5.21%D=1/15%OT=23%CT=1%CU=39656%PV=N%DS=1%DC=I%G=Y%TM=4D3258D6%P=
+OS:i686-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10C%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=
+OS:100%GCD=1%ISR=10C%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=104%GCD=1%ISR=10E%TI=Z%CI
+OS:=RI%II=RI%TS=U)SEQ(SP=104%GCD=1%ISR=10D%TI=Z%CI=RD%II=RI%TS=U)SEQ(SP=104
+OS:%GCD=1%ISR=10B%TI=Z%CI=RI%II=RI%TS=U)OPS(O1=M218%O2=M218%O3=M218%O4=M218
+OS:%O5=M218%O6=M218)WIN(W1=10C0%W2=10C0%W3=10C0%W4=10C0%W5=10C0%W6=10C0)ECN
+OS:(R=Y%DF=N%T=FF%W=10C0%O=M218%CC=N%Q=)T1(R=Y%DF=N%T=FF%S=O%A=S+%F=AS%RD=0
+OS:%Q=)T2(R=Y%DF=Y%T=37%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=
+OS:Y%T=30%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=26%W=80%S=
+OS:A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=2A%W=80%S=A%A=S+%F=AR%O=
+OS:WANM109T10S%RD=0%Q=)T2(R=Y%DF=Y%T=3A%W=80%S=A%A=S+%F=AR%O=WANM109T10S%RD
+OS:=0%Q=)T3(R=Y%DF=N%T=30%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%
+OS:DF=N%T=34%W=100%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=29%W=1
+OS:00%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T3(R=Y%DF=N%T=27%W=100%S=A%A=S+%F
+OS:=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=36%W=400%S=A%A=S+%F=AR%O=WANM109
+OS:T10S%RD=0%Q=)T4(R=Y%DF=Y%T=31%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)
+OS:T4(R=Y%DF=Y%T=2F%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T
+OS:=33%W=400%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T4(R=Y%DF=Y%T=2A%W=400%S=A
+OS:%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T5(R=Y%DF=N%T=FF%W=0%S=O%A=S+%F=AR%O=%R
+OS:D=0%Q=)T6(R=Y%DF=Y%T=2C%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=
+OS:Y%DF=Y%T=36%W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=2B%
+OS:W=8000%S=A%A=S+%F=AR%O=WANM109T10S%RD=0%Q=)T6(R=Y%DF=Y%T=3A%W=8000%S=A%A
+OS:=S+%F=AR%O=WANM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=2F%W=FFFF%S=A%A=S+%F=AR%O=W
+OS:FNM109T10S%RD=0%Q=)T7(R=Y%DF=N%T=26%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%R
+OS:D=0%Q=)T7(R=Y%DF=N%T=2A%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)T7(R=
+OS:Y%DF=N%T=32%W=FFFF%S=A%A=S+%F=AR%O=WFNM109T10S%RD=0%Q=)U1(R=Y%DF=N%T=FF%
+OS:IPL=38%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=S%T=FF%CD=S)
+
+Network Distance: 1 hop
+
+Nmap scan report for firewall50.csh.rit.edu (129.21.50.250)
+Host is up (0.0011s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: VoIP phone|firewall
+Running (JUST GUESSING) : Cisco embedded (93%), Polycom embedded (89%)
+Aggressive OS guesses: Cisco IP Phone 7912G (93%), Polycom SoundPoint 501 IP phone (89%), Cisco ASA 5540 firewall (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 129.21.50.251
+Host is up (0.00048s latency).
+Not shown: 999 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: VoIP phone|general purpose
+Running (JUST GUESSING) : Cisco embedded (93%), Polycom embedded (90%), Sun SunOS (86%)
+Aggressive OS guesses: Cisco IP Phone 7912G (93%), Polycom SoundPoint 501 IP phone (90%), Sun Solaris 2.5.1 (SPARC) (86%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for 129.21.50.252
+Host is up (0.0034s latency).
+All 1000 scanned ports on 129.21.50.252 are closed
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: switch|WAP|general purpose
+Running (JUST GUESSING) : SMC embedded (90%), Netgear embedded (88%), Cisco IOS 12.X (87%), Cisco NX-OS 4.X (87%), IBM z/OS (86%), OpenBSD 3.X|4.X (86%), Sun Solaris 10 (86%), Linux 2.6.X (85%)
+Aggressive OS guesses: SMC 8024L2 switch (90%), Netgear ProSafe GS724T switch (88%), Cisco 3750 switch (IOS 12.2) (87%), Cisco Aironet 1231G WAP (IOS 12.3) (87%), Cisco NX-OS 4.0(1a)N1(1) (87%), IBM z/OS v1r8 (86%), OpenBSD 3.9 (86%), OpenBSD 4.4 (86%), Sun Solaris 10 (x86) (86%), Linux 2.6.21-gentoo-r4 (PowerPC) (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for gateway50.csh.rit.edu (129.21.50.254)
+Host is up (0.0040s latency).
+All 1000 scanned ports on gateway50.csh.rit.edu (129.21.50.254) are closed
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: switch|WAP|general purpose
+Running (JUST GUESSING) : SMC embedded (90%), Netgear embedded (88%), Cisco IOS 12.X (87%), Cisco NX-OS 4.X (87%), IBM z/OS (86%), OpenBSD 3.X|4.X (86%), Sun Solaris 10 (86%), Linux 2.6.X (85%)
+Aggressive OS guesses: SMC 8024L2 switch (90%), Netgear ProSafe GS724T switch (88%), Cisco 3750 switch (IOS 12.2) (87%), Cisco Aironet 1231G WAP (IOS 12.3) (87%), Cisco NX-OS 4.0(1a)N1(1) (87%), IBM z/OS v1r8 (86%), OpenBSD 3.9 (86%), OpenBSD 4.4 (86%), Sun Solaris 10 (x86) (86%), Linux 2.6.21-gentoo-r4 (PowerPC) (85%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+Nmap done: 510 IP addresses (138 hosts up) scanned in 252.89 seconds
