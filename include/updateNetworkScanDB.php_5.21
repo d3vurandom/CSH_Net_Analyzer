@@ -1,25 +1,22 @@
 <?php
+//This file is used to parse the output from the nmap dump. "scan.txt" requires nMap 5.21
 require ('database.php');
 
 $result = dbQuery("SELECT * FROM `general`");
 $num_rows = mysql_num_rows($result);
 $scanID = ++$num_rows;
 
-//vars
-//$ipFrom = "129.21.49.1";
-//$ipTo = "129.21.50.255";
-
 $fileName = $nmapScanFileLocation;
-//$fileName = "scan.txt";
-$totalHosts;
-$hostsUp;
-$ipList;
+//echo $fileName . "<br>";
+
+//$fileName = "/var/www/htdocs/scan.txt";
+$totalHosts = 0;
+$hostsUp = 0;
 $microsoftCount = 0;
 $appleCount = 0;
 $linuxCount = 0;
 $otherCount = 0;
 $comp = array(array());
-
 
 $currentLoc = 0;
 $currentSubLoc = 0;
@@ -30,7 +27,7 @@ foreach ($file as $line){
 		$currentLoc++;
 		$currentSubLoc=0;
 	}
-	if(preg_match('/^Interesting/', $line) || preg_match('/^All/', $line) && $currentSubLoc > 2){ // matches "Interesting"
+	if(preg_match('/^Nmap\sscan/', $line) && $currentSubLoc > 2){ 
 		$currentLoc++;
 		$currentSubLoc=0;
 	}
@@ -56,7 +53,7 @@ foreach ($file as $line){
 			$currentSubLoc++;
 		}
 	}
-	if(preg_match('/^Interesting/', $line) || preg_match('/^All/', $line)){ // matches "Interesting" || "All"
+	if(preg_match('/^Nmap/', $line)){
 		$comp[$currentLoc][$currentSubLoc] = $line;
 		$currentSubLoc++;
 	}
@@ -70,32 +67,33 @@ foreach ($file as $line){
 		$hostsUp = ltrim($results[5],"(");
 	}
 }
-//================ match "Interesting" and has a tailing ")"=====================//
+//================ match "Nmap" and has a tailing ")"=====================//
 foreach ($comp as $subArray){	
-	if(preg_match('/^Interesting/', $subArray[0])){
+//	echo "sub array = " . $sunArray[0] . "<br>";
+	if(preg_match('/^Nmap\sscan/', $subArray[0])){
 		$openPorts = "";
 		$hostname = "";
-		$ip;
-		$hops;
+		$ip = "";
+		$hops = "";
 		$OS = "";
 		$mac = "";
 		foreach ($subArray as $line){
-			if(preg_match('/^Interesting/', $line)&& preg_match('/\)/', $line)){
+			if(preg_match('/^Nmap/', $line)&& preg_match('/\)/', $line)){
 			//hostname
 				$new = explode(" ",$line);
-				$hostname = $new[3];
+				$hostname = $new[4];
 			//ip address
-				$new[4] = preg_replace('/\(/',"", $new[4]);
-				$new[4] = preg_replace('/\)/',"", $new[4]);
-				$ip = preg_replace('/\:/',"", $new[4]);
+				$new[5] = preg_replace('/\(/',"", $new[5]);
+				$new[5] = preg_replace('/\)/',"", $new[5]);
+				$ip = preg_replace('/\:/',"", $new[5]);
 			}
-			if(preg_match('/^Interesting/', $line) && !(preg_match('/\)/', $line))){
+			if(preg_match('/^Nmap/', $line) && !(preg_match('/\)/', $line))){
 			//echo "MATCH! WOOT!";
 			//hostname
-				$hostname = "None";
+				$hostname = "";
 			//ip address
 				$new = explode(" ",$line);
-				$ip = preg_replace('/\:/',"", $new[3]);
+				$ip = preg_replace('/\:/',"", $new[4]);
 			}
 			//append open ports
 			$new = explode(" ",$line);
@@ -142,31 +140,15 @@ foreach ($comp as $subArray){
 				$mac = $new[2];
 			}
 		}
-		//enter stuff in database at this point
-		/*
-		echo "<br>";
-		echo "Hostname: " . $hostname . "<br>";
-		echo "IP Address: " . $ip . "<br>";
-		echo "Mac Address: " . $mac . "<br>";
-		echo "Open Ports: " . $openPorts;
-		echo "<br>";
-		echo "Operating System: " . $OS;
-		echo "<br>";
-		echo "Network Hops: " . $hops . "<br>";
-		echo "<br>";
-		*/
-		$query = "INSERT INTO stats (scanID, ip, mac, os, openPorts, hostname, hops) VALUES ('$scanID','$ip','$mac','$OS','$openPorts','$hostname','$hops')";
-		//hostname=$hostname,ip=$ip,mac=$mac,openPorts=$openPorts,os=$OS,hops=$hops,scanID=$scanID,dateTime=NOW()";
-		//echo $query ."<br>";
+		$query = "INSERT INTO stats (`scanID`, `ip`, `mac`, `os`, `openPorts`, `hostname`, `hops`) VALUES ('$scanID','$ip','$mac','$OS','$openPorts','$hostname','$hops')";
 		dbQuery($query);;
 	}
 	//==============match "All"================//
 	if(preg_match('/^All/', $subArray[0])){
-	//echo "LOL". "<br>";
 		$openPorts = "";
 		$hostname = "";
-		$ip;
-		$hops;
+		$ip = "";
+		$hops = "";
 		$OS = "";
 		$mac = "";
 		foreach ($subArray as $line){
@@ -191,29 +173,18 @@ foreach ($comp as $subArray){
 				$hops = $new[2];
 			}
 		}
-	//enter stuff in database at this point
-	//echo "<br>";
-	//echo "----------ALL-------" . "<br>";
-	/*
-	echo "Hostname: " . $hostname . "<br>";
-	echo "IP Address: " . $ip . "<br>";
-	echo "Mac Address: " . $mac . "<br>";
-	echo "Open Ports: " . $openPorts;
-	echo "<br>";
-	echo "Operating System: " . $OS;
-	echo "<br>";
-	echo "Network Hops: " . $hops . "<br>";
-	echo "<br>";
-	*/
-	$query = "INSERT INTO stats (scanID, ip, mac, os, openPorts, hostname, hops) VALUES ('$scanID','$ip','$mac','$OS','$openPorts','$hostname','$hops')";
-	//echo $query ."<br>";
+	$query = "INSERT INTO stats (`scanID`, `ip`, `mac`, `os`, `openPorts`, `hostname`, `hops`) VALUES ('$scanID','$ip','$mac','$OS','$openPorts','$hostname','$hops')";
+	//echo "REALLY? ===" . $query ."<br>";
 	dbQuery($query);
 	}
 }
-
-
 //set OtherCount
 $otherCount = ($hostsUp - $microsoftCount - $appleCount - $linuxCount);
+
+$query = "INSERT INTO general (`microsoft`, `apple`, `linux`, `other`, `hosts`, `hostsScanned`, `scanID`, `scanTime`) VALUES ('$microsoftCount','$appleCount','$linuxCount','$otherCount','$hostsUp','$totalHosts','$scanID',NOW())";
+//echo $query ."<br>";
+dbQuery($query);
+
 //echo stuff
 echo "Total Scanned= " . $totalHosts;
 echo "<br>";
@@ -227,34 +198,5 @@ echo "Definitely Running Linux = " . $linuxCount;
 echo "<br>";
 echo "Undetermined = " . $otherCount;
 echo "<br>";
-$query = "INSERT INTO general (microsoft, apple, linux, other, hosts, hostsScanned, scanID, scanTime) VALUES ('$microsoftCount','$appleCount','$linuxCount','$otherCount','$hostsUp','$totalHosts','$scanID',NOW())";
-//echo $query ."<br>";
-dbQuery($query);
-
-
-/*
-// generate ip addrs
-$arry1 = explode(".",$ipFrom);
-$arry2 = explode(".",$ipTo);
-$a1 = $arry1[0]; $b1 = $arry1[1];	$c1 = $arry1[2]; $d1 = $arry1[3];
-$a2 = $arry2[0]; $b2 = $arry2[1];	$c2 = $arry2[2]; $d2 = $arry2[3];
-while( $d2 >= $d1 || $c2 > $c1 || $b2 > $b1 || $a2 > $a1){
-	if($d1 > 255){
-		$d1 = 1;
-		$c1 ++;
-	}
-	if($c1 > 255){
-		$c1 = 1;
-		$b1 ++;
-	}	
-	if($b1 > 255){
-		$b1 = 1;
-		$a1 ++;
-	}
-	$ipList[] =  $a1 . "." . $b1 . "." . $c1 . "." . $d1 ;
-	$d1 ++;
-}
-*/
-echo "Success?";
 
 ?>

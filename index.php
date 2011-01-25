@@ -81,12 +81,15 @@
 					$lastScanTime = "Last Scan was " . sec_to_time($lastScanTime) . " ago";
 					echo "<img src=\"http://chart.apis.google.com/chart?chts=000000,24.5&chf=bg,s,67676700&chs=850x350&chd=t:$osNumString&cht=p3&chl=$osString&chtt=CSH+Network+Devices+($aliveHosts)+$lastScanTime&chco=338800|66EE00|FF0000|334455|FFBB00|FFFF00|3300BB|66EEBB|0000EE|CC0000|CCCCCC|990055|005500|009900|AAaaaaC1&\">";
 			}
+			else{
+				echo "Something went wrong with the scan";
+			}
 		?>
 	</div>
 	<br>
 	<div id="serverStatus">
 		<?php
-		$result=dbQuery("SELECT * FROM `server`");
+		$result=dbQuery("SELECT * FROM `server` WHERE `isActive`='1'");
 		$num_rows = mysql_num_rows($result);
 		
 		if($num_rows > 0){
@@ -127,6 +130,7 @@
 				echo "</div>\n";
 			}
 			echo "</table>";
+			echo "<br>";
 		}
 		?>
 	</div>

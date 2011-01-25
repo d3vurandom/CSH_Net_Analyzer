@@ -4,19 +4,19 @@
 	require('functions.php');
 	
 	
-	$result=dbQuery("SELECT serverID FROM `server`");
+	$result=dbQuery("SELECT serverID FROM `server` WHERE `isActive`='1'");
 	$num_rows = mysql_num_rows($result);
 	$serveIDs = array();
 	
 	while($row = mysql_fetch_array($result)){
 		$serverIDs[] = $row['serverID'];
-		
+		 
 	}
 echo "function loadPage(){
 	getLastSeen$serverIDs[0]();
 	}";
 
-echo "setInterval( \"getLastSeen$serverIDs[0]()\",2000 );\n";
+echo "setInterval( \"getLastSeen$serverIDs[0]()\",5000 );\n";
 
 	if($num_rows > 0){
 		

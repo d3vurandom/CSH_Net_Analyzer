@@ -1,7 +1,7 @@
 <?php
 require ('include/database.php');
 
-$result=dbQuery("SELECT `serverID` FROM `server` WHERE TIMESTAMPDIFF(MINUTE, `lastSeen`, NOW()) > 5");
+$result=dbQuery("SELECT `serverID` FROM `server` WHERE TIMESTAMPDIFF(MINUTE, `lastSeen`, NOW()) > 5 AND `isActive`=1");
 
 $troublesomeServers = array();
 while($dbArray = mysql_fetch_assoc($result)) {

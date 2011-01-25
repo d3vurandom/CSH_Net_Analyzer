@@ -96,7 +96,12 @@ function sec_to_time($seconds) {
 
 function hardDriveCheck($serverID) { //this exists as a function to allow return to cancel out of the hardware test without stopping the whole checkin
 	global $smartProperties, $smartPropertiesSet, $deviceData, $deviceID;
-
+	
+	//get most recent smartID
+	$result = dbQuery("SELECT MAX(smartID) AS smartID FROM smartStatus");
+	$row = mysql_fetch_array($result);
+	$smartID = ++$row['smartID'];
+	
 	if($smartPropertiesSet == false) {
 		$smartProperties = getPermittedSmartElements();
 	}
@@ -113,6 +118,7 @@ function hardDriveCheck($serverID) { //this exists as a function to allow return
 		else {
 			$updateFor = '';
 		}
+		
 
 		if($updateFor != '') { //if updateFor is set, update the appropriate table in the database for either smart or md
 			$tmp = explode('_', $key); //splits mdStatus_/smartStatus_ from the appropriate device/array name
@@ -144,7 +150,7 @@ function hardDriveCheck($serverID) { //this exists as a function to allow return
 
 					$driveList[] = $deviceName;
 					
-					updateDriveStatus($serverID, $deviceName, $value, $smartArray);
+					updateDriveStatus($serverID, $deviceName, $value, $smartArray, $smartID);
 				}
 			}
 		}
@@ -191,10 +197,10 @@ function getPermittedSmartElements() { //returns an array of smart elements by l
 	return($smartProperties);
 }
 
-function updateDriveStatus($serverID, $deviceName, $status, $smartArray) { //updates drive status in the database by the drive's device name (sda, sdb, etc) status, and smart properties from smartctl
+function updateDriveStatus($serverID, $deviceName, $status, $smartArray, $smartID) { //updates drive status in the database by the drive's device name (sda, sdb, etc) status, and smart properties from smartctl
 	global $smartProperties;
-	
-	dbQuery("INSERT INTO `smartStatus` SET `serverID` = '$serverID', `deviceName` = '$deviceName', `status` = '$status',`timestamp`=NOW()");
+
+	dbQuery("INSERT INTO `smartStatus` SET `serverID` = '$serverID', `deviceName` = '$deviceName', `status` = '$status',`timestamp`=NOW(),`smartID` = '$smartID'");
 
 	if(!$driveID = mysql_insert_id()) {
 		return(false);
@@ -216,11 +222,11 @@ function updateDriveStatus($serverID, $deviceName, $status, $smartArray) { //upd
 	}
 }
 function isFaulty($serverID){
-	$result = dbQuery("SELECT timestamp FROM `smartStatus` WHERE serverID = $serverID ORDER by timestamp DESC LIMIT 1");
+	$result = dbQuery("SELECT `smartID` FROM `smartStatus` WHERE serverID = $serverID ORDER by smartID DESC LIMIT 1");
 	$row = mysql_fetch_array($result);
-	$timestamp = $row['timestamp'];
+	$smartID = $row['smartID'];
 	
-	$result = dbQuery("SELECT * FROM `smartStatus` WHERE `timestamp` = '$timestamp' ORDER by `deviceName` ASC");
+	$result = dbQuery("SELECT * FROM `smartStatus` WHERE `smartID` = '$smartID' ORDER by `deviceName` ASC");
 	
 	$healthy = 0;
 	while($row = mysql_fetch_array($result)){

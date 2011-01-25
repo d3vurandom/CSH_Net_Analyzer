@@ -27,6 +27,7 @@ body {
 }
 #container{
 	background-color:#eee;
+	min-width:980px;
 	width: 90%;
 	text-align: center;
 	border:1px solid black;
@@ -61,7 +62,8 @@ body {
 	//border:1px solid orange;
 }
 
-#quickStatus{
+#status{
+
 	//background-color:#eee;
 	//width: 45%;
 	//border:1px solid blue;
@@ -81,6 +83,7 @@ table{
 }
 table td {
 	padding:2px 10px 2px;
+	text-align: center;
 }
 h1{
 	font-size:225%;
@@ -90,6 +93,7 @@ h1{
 }
 h2{
 	font-size:110%;
+	margin: 0px 0px 0px 0px;
 	font-family:"Times New Roman",Georgia,Serif;
 }
 h3{
@@ -131,5 +135,28 @@ a:active{
 }
 a:hover{
 	text-decoration:none;
+	color: black;
+}
+.badSmartStatusValue{
+	color: red;
+	
+}
+#headerContainer a:link{
+	text-decoration:none;
+	color: white;
+}
+#headerContainer a:visited{
+	text-decoration:none;
+	color: white;
+}
+#headerContainer a:active{
+	text-decoration:none;
+	color: white;
+}
+#headerContainer a:hover{
+	text-decoration:none;
+	color: white;
+}
+.goodSmartStatusValue{
 	color: black;
 }
