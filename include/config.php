@@ -3,7 +3,7 @@
 
 //database config
 $dbusername = 'devurandom'; // database username
-$dbpassword = ''; //database password
+$dbpassword = 'S@ltW@t3r'; //database password
 $database = 'devurandom'; //database
 $dbserver = 'db.csh.rit.edu'; //database server
 
