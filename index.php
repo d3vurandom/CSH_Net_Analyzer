@@ -43,6 +43,7 @@
 				//echo $num_rows;
 				$os = array();
 				$osName = array();
+				$defindedHosts = 0;
 				$aliveHosts = $row['hosts'];
 
 				$array = array();
@@ -75,11 +76,15 @@
 					foreach($osCountArray as $os => $osCount) {
 						$osString .=($os ." = " . $osCount . "|");
 						$osNumString .=($osCount . ",");
+						$defindedHosts = ($defindedHosts + $osCount);
 					}
 					$osString = rtrim ($osString , "," );
 					$osNumString = rtrim ($osNumString , "," );
 					$lastScanTime = "Last Scan was " . sec_to_time($lastScanTime) . " ago";
 					echo "<img src=\"http://chart.apis.google.com/chart?chts=000000,24.5&chf=bg,s,67676700&chs=850x350&chd=t:$osNumString&cht=p3&chl=$osString&chtt=CSH+Network+Devices+($aliveHosts)+$lastScanTime&chco=338800|66EE00|FF0000|334455|FFBB00|FFFF00|3300BB|66EEBB|0000EE|CC0000|CCCCCC|990055|005500|009900|AAaaaaC1&\">";
+					
+					$undefinded = ($aliveHosts -$defindedHosts);
+					echo "<br>" . "Undefinded devices = " . $undefinded;
 			}
 			else{
 				echo "Something went wrong with the scan";
